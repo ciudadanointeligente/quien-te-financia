@@ -1,0 +1,46 @@
+---
+layout: candidato
+
+title: Evelyn Matthei
+
+categories: 
+- candidatos
+- soon
+
+featured-image: ../../images/post/allamand.png
+
+gender: f
+
+c_twitter: allamand
+
+public-email: mail@mail.cl
+
+responde_gasto: n
+
+gastos:
+- [ 'Sueldos' , '' ]
+- [ 'Publicidad' , '' ]
+- [ 'Transporte' , '' ]
+- [ 'Inmuebles' , '' ]
+
+g_total:
+
+fecha_rendicion:
+
+ 
+responde_financiamiento: 'm'
+
+qtf_empresas: "Ante las consultas que nos han hecho llegar por twitter, la respuesta sobre el tópico específico es la siguiente: Tal como mandata la Ley sobre Transparencia, Límite y Control del Gasto Electoral, rendiremos las cuentas correspondientes ante el Servel de los ingresos y gastos de campaña, al término de la elección."
+
+compromiso:
+---
+
+##En su programa: ##
+
+####No hace referencia al financiamiento de la política, la transparencia ni la regulación del lobby ####
+
+Fuente: <a href="http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf" target='_blank'>Programa de Gobierno Allamand 2014</a><!-- [Programa de Gobierno Allamand 2014][prog] --> 
+
+
+
+[prog]:http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf

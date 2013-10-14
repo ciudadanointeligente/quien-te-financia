@@ -1,0 +1,41 @@
+---
+layout: candidato
+
+title: Franco Parisi
+
+categories: 
+- candidatos
+- soon
+
+featured-image: ../../images/post/parisi.png
+
+gender: m
+
+c_twitter: fr_parisi
+
+public-email: dvillegas@parisi2014.cl
+
+responde_gasto: n
+
+gastos:
+- [ 'Sueldos' , '' ]
+- [ 'Publicidad' , '' ]
+- [ 'Transporte' , '' ]
+- [ 'Inmuebles' , '' ]
+
+g_total:
+
+fecha_rendicion:
+
+ 
+responde_financiamiento: n
+
+qtf_empresas:
+
+compromiso:
+
+---
+##En su programa: ##
+
+
+

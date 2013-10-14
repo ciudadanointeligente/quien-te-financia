@@ -1,0 +1,38 @@
+---
+layout: candidato
+
+title: Marcel Claude
+
+categories: 
+- candidatos
+- soon
+
+featured-image: ../../images/post/claude.png
+
+gender: f
+
+c_twitter: todosalamoneda
+
+public-email: prensamarcelclaude@gmail.com
+
+responde_gasto: n
+
+gastos:
+- [ '' , '' ]
+
+g_total:
+
+fecha_rendicion:
+
+ 
+responde_financiamiento: n
+
+qtf_empresas:
+
+
+compromiso:
+---
+##En su programa##
+
+.
+

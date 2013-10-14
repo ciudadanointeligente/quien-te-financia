@@ -1,0 +1,35 @@
+<div class="innerficha">
+  <div class="introCandidate"> 
+    <img class="cImage" src="{{ page.featured-image }}" title="{{ page.title }}" /> 
+    <div class="actionLine">
+      <h1> {{ page.title }} </h1>
+      {% if page.categories contains 'whitelist' %}
+
+        {% if page.star != null  %}
+        <strong>Declaración destacada:</strong> <br />
+          {{ page.star }}
+        {% endif %}
+        <br />
+        Nos ha enviado las siguientes respuestas:
+        <br />
+        <strong>
+           Comparte su declaración
+        </strong>
+        <br />
+           {% if page.star != null  %}
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="¡Bien la transparencia de @{{page.c_twitter}}! {{site.hashtag}}" ></a>
+            
+          {% else %}
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="¿Es suficiente la respuesta de @{{page.c_twitter}}? {{site.hashtag}}" ></a>
+          {% endif %}
+      {% endif %}
+
+      {% if page.categories contains 'blacklist' %}
+          Exígele transparencia:
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text=" Mal @{{page.c_twitter}}. Contesta {{site.hashtag}} en " ></a>
+      {% endif %}
+    </div>
+  </div>  
+</div>
+
+   

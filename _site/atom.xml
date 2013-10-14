@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Quién te financia</title>
+ <link href="http://www.quientefinancia.cl/atom.xml" rel="self"/>
+ <link href="http://www.quientefinancia.cl/"/>
+ <updated>2013-10-14T12:48:38-03:00</updated>
+ <id>http://www.quientefinancia.cl</id>
+ <author>
+   <name>Quién te financia</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>Evelyn Matthei</title>
+   <link href="http://www.quientefinancia.cl/posts/matthei"/>
+   <updated>2013-10-14T00:00:00-03:00</updated>
+   <id>http://www.quientefinancia.cl/posts/matthei</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+
+&lt;h4&gt;No hace referencia al financiamiento de la política, la transparencia ni la regulación del lobby&lt;/h4&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&quot;http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf&quot; target=&#39;_blank&#39;&gt;Programa de Gobierno Allamand 2014&lt;/a&gt;&lt;!-- [Programa de Gobierno Allamand 2014][prog] --&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Andrés Velasco</title>
+   <link href="http://www.quientefinancia.cl/posts/velasco"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/velasco</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+
+&lt;h4&gt;Reformar la ley de partidos políticos&lt;/h4&gt;
+
+&lt;p&gt; La reforma al sistema electoral debe ir de la mano de una reforma a la regulación legal de los partidos políticos, para propiciar la democracia interna y evitar el enquistamiento de sus dirigentes. Nuestra democracia requiere mejores partidos políticos, más transparentes y con mecanismos de selección de liderazgos que promuevan la renovación. Los partidos cumplen una función pública. Por eso deben recibir financiamiento público. Pero este no puede ser un cheque en blanco. Los fondos de todos los chilenos deben ir solo a los partidos que garanticen democracia interna, primarias obligatorias y vinculantes, rendición de cuentas y transparencia total.&lt;/p&gt;
+
+&lt;h4&gt;Regular la relación del dinero y la política&lt;/h4&gt;
+
+&lt;p&gt; La voluntad popular se expresa con más fuerza y claridad si reducimos el peso del dinero en la política. El año 2007 el Ejecutivo envió al Congreso un proyecto de ley para regular y transparentar el lobby. Dicho proyecto exigía que los lobistas se registren y que los legisladores informen al público con quiénes se reúnen. Es imprescindible aprobar una ley de esa índole, que además regule la declaración de patrimonio e intereses de los candidatos, el fideicomiso ciego al momento de inscribir candidaturas y los límites al aporte de las empresas a las campañas.&lt;/p&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&quot;http://www.andresvelasco.cl/propuestas/reformas-politicas-y-constitucionales/&quot; target=&#39;_blank&#39;&gt;Programa de Gobierno Velasco 2014&lt;/a&gt;&lt;!-- [Programa de Gobierno Velasco 2014][prog] --&gt;&lt;/p&gt;
+
+&lt;h2&gt;Información Adicional Declarada:&lt;/h2&gt;
+
+&lt;table class=&quot;table table-striped table-bordered table-declare&quot;&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Plaza Italia, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;San Francisco de Asís llegando a Costanera Norte, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Vespucio con Santa Ana, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Costanera Norte altura Dorsal (camino aeropuerto Santiago)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Errázuriz esquina Esmeralda, Concepción&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Autopista Talcahuano-Concepción hacia mall frente a la Copec, Conce|pción&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Av. España altura Escala Bari, Valparaíso&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;San Pedro Michimalongo, Concepción&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Av. Alemania, Temuco&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;Carretera Cobre, Rancagua&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Monumentales&lt;/td&gt;&lt;td&gt;2 Norte, Talca&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Tobalaba con Ossa, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Vespucio Vicuña Mackenna, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Vicuña Mckenna con Irarrázaval, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Irarrázaval con Pedro de Valdivia, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Vespucio antes de la subida a la pirámide, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Paicavi con Los Carrera, Concepción&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Camilo Henriquez frente Mall Tobalaba, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Alameda frente Crown Plaza, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Bajada de agua santa con Vianna 3, Viña del Mar&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Alcalde Délano/C. Central, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Bilbao frente al Jumbo, Santiago&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Av. Grecia 2300, Antofagasta&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Amunategui, La Serena&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Pantallas LED&lt;/td&gt;&lt;td&gt;Mall La Serena&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Futuro&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;ADN&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Activa&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Concierto&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Uno&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Play&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Oasis&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Duna&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Carolina&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Agricultura&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Radios&lt;/td&gt;&lt;td&gt;Cooperativa&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Publicidad Digital&lt;/td&gt;&lt;td&gt;El Mostrador&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Publicidad Digital&lt;/td&gt;&lt;td&gt;El Dínamo&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Publicidad Digital&lt;/td&gt;&lt;td&gt;Facebook&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Publicidad Digital&lt;/td&gt;&lt;td&gt;Youtube&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Publicidad Digital&lt;/td&gt;&lt;td&gt;Red Display Google&lt;/td&gt;&lt;/tr&gt;
+   
+
+   
+&lt;/table&gt;
+
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Alfredo Sfeir</title>
+   <link href="http://www.quientefinancia.cl/posts/sfeir"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/sfeir</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Franco Parisi</title>
+   <link href="http://www.quientefinancia.cl/posts/parisi"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/parisi</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Claudio Orrego</title>
+   <link href="http://www.quientefinancia.cl/posts/orrego"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/orrego</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+
+&lt;p&gt; Chile se atreve a un buen servicio público como imperativo ético. El Estado debe ser transparente en su quehacer y cada autoridad pública debe responder frente al país por sus acciones y omisiones. Defendemos la urgencia de regular y fiscalizar la relación entre el dinero y la política, poniendo atajo a los conflictos de interés que amenazan la legitimidad de nuestra democracia.&lt;/p&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&quot;http://www.orregopresidente.cl/el-buen-servicio-publico-como-imperativo-etico/&quot; target=&#39;_blank&#39;&gt;Programa de Gobierno Orrego 2014&lt;/a&gt;&lt;!-- [Programa de Gobierno Orrego 2014][prog] --&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Roxana Miranda</title>
+   <link href="http://www.quientefinancia.cl/posts/miranda"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/miranda</id>
+   <content type="html">&lt;h2&gt;En su programa&lt;/h2&gt;
+
+&lt;p&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Marco Enríquez-Ominami</title>
+   <link href="http://www.quientefinancia.cl/posts/meo"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/meo</id>
+   <content type="html">&lt;h2&gt;En su programa&lt;/h2&gt;
+
+&lt;p&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pablo Longueira</title>
+   <link href="http://www.quientefinancia.cl/posts/longueira_primarias"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/longueira_primarias</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+
+&lt;p&gt;El candidato no tiene programa&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pablo Longueira</title>
+   <link href="http://www.quientefinancia.cl/posts/longueira"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/longueira</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+
+&lt;p&gt;El candidato no tiene programa&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tomás Jocelyn-Holt</title>
+   <link href="http://www.quientefinancia.cl/posts/jocelyn-holt"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/jocelyn-holt</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>José Antonio Gómez</title>
+   <link href="http://www.quientefinancia.cl/posts/gomez"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/gomez</id>
+   <content type="html">&lt;h2&gt;En su programa&lt;/h2&gt;
+
+&lt;p&gt;(&amp;hellip;) reformar los Partidos Políticos, que exista financiamiento transparente de la actividad política, romper con la influencia de quienes financian a Partidos y legisladores etc., medidas de este tipo pondrán nuevamente ante la opinión pública a las instituciones en situación de credibilidad.&lt;/p&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&quot;http://www.gomez2014.cl/programa/&quot; target=&#39;_blank&#39;&gt;Programa de Gobierno Gómez 2014&lt;/a&gt;&lt;!-- [Programa de Gobierno Gómez 2014][prog] --&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Marcel Claude</title>
+   <link href="http://www.quientefinancia.cl/posts/claude"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/claude</id>
+   <content type="html">&lt;h2&gt;En su programa&lt;/h2&gt;
+
+&lt;p&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Michelle Bachelet</title>
+   <link href="http://www.quientefinancia.cl/posts/bachelet_primarias"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/bachelet_primarias</id>
+   <content type="html">&lt;h2&gt;En su programa&lt;/h2&gt;
+
+&lt;p&gt;La candidata no tiene programa&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Michelle Bachelet</title>
+   <link href="http://www.quientefinancia.cl/posts/bachelet"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/bachelet</id>
+   <content type="html">&lt;h2&gt;En su programa&lt;/h2&gt;
+
+&lt;p&gt;La candidata no tiene programa&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Andrés Allamand</title>
+   <link href="http://www.quientefinancia.cl/posts/allamand"/>
+   <updated>2013-05-30T00:00:00-04:00</updated>
+   <id>http://www.quientefinancia.cl/posts/allamand</id>
+   <content type="html">&lt;h2&gt;En su programa:&lt;/h2&gt;
+
+&lt;h4&gt;No hace referencia al financiamiento de la política, la transparencia ni la regulación del lobby&lt;/h4&gt;
+
+&lt;p&gt;Fuente: &lt;a href=&quot;http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf&quot; target=&#39;_blank&#39;&gt;Programa de Gobierno Allamand 2014&lt;/a&gt;&lt;!-- [Programa de Gobierno Allamand 2014][prog] --&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

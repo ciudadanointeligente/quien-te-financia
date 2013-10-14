@@ -1,0 +1,38 @@
+---
+layout: candidato
+
+title: Marco Enríquez-Ominami
+
+categories: 
+- candidatos
+- soon
+
+featured-image: ../../images/post/enriquez.png
+
+gender: m
+
+c_twitter: marcoporchile
+
+public-email: cmanqueo@fundacionprogresa.cl
+
+responde_gasto: n
+
+gastos:
+- [ '' , '' ]
+
+g_total:
+
+fecha_rendicion:
+
+ 
+responde_financiamiento: n
+
+qtf_empresas:
+
+
+compromiso:
+---
+##En su programa##
+
+.
+

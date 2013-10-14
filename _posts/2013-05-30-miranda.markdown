@@ -1,0 +1,38 @@
+---
+layout: candidato
+
+title: Roxana Miranda
+
+categories: 
+- candidatos
+- soon
+
+featured-image: ../../images/post/miranda.png
+
+gender: f
+
+c_twitter: roxanaespueblo
+
+public-email: prensa@roxanamiranda.cl
+
+responde_gasto: n
+
+gastos:
+- [ '' , '' ]
+
+g_total:
+
+fecha_rendicion:
+
+ 
+responde_financiamiento: n
+
+qtf_empresas:
+
+
+compromiso:
+---
+##En su programa##
+
+.
+
