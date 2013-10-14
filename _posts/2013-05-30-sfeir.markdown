@@ -7,7 +7,7 @@ categories:
 - candidatos
 - whitelist
 
-featured-image: ./../images/post/sfeir.png
+featured-image: ../../images/post/sfeir.png
 
 gender: m
 
