@@ -7,7 +7,7 @@ categories:
 - candidatos
 - blacklist
 
-featured-image: ../../images/post/miranda.png
+featured-image: ./../images/post/miranda.png
 
 gender: f
 

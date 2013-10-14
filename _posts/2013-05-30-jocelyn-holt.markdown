@@ -7,7 +7,7 @@ categories:
 - candidatos
 - blacklist
 
-featured-image: ../../images/post/holt.png
+featured-image: ./../images/post/holt.png
 
 gender: m
 

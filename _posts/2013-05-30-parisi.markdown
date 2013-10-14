@@ -7,7 +7,7 @@ categories:
 - candidatos
 - blacklist
 
-featured-image: ../../images/post/parisi.png
+featured-image: ./../images/post/parisi.png
 
 gender: m
 

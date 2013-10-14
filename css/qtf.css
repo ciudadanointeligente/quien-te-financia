@@ -1,11 +1,8 @@
 
 body.body-qtf{
-	/*background: url(../images/qtf-bg.png) repeat 0 0 #292b2e;*/
-	background: #252525;
+	background: #1B1B1B;
 	color: #ACACAC;
 }
-
-
 
 .headTop{
 	background-color: #000;
@@ -116,9 +113,10 @@ body.body-qtf{
 .petition h2 a {
 	background: #000;
 	color: #fff;
-	font-size: 40px;
+	font-size: 50px;
 	padding: 5px 15px;
 	float: right;
+	margin-top: 10px;
 }
 
 .petition h2 a:hover {
@@ -137,17 +135,14 @@ body.body-qtf{
 /* home candidates' list */
 
 .content .candidatesList li {
-	font-size: 13px;
 	list-style: none;
 	padding: 5px 3px;
-	margin: 0 0 10px 0;
-	color: #777777;
-	width: 165px;
+	margin: 0 10px 10px 0;
+	width: 180px;
 	float: left;
 	text-align: center;
-	height: 240px;
-
 }
+
 .candidatesList li img{
 	clear: both;
 	display: block;
@@ -161,12 +156,6 @@ body.body-qtf{
 	margin: 0;
 	padding: 0;
 	z-index: 20;
-
-
-}
-.theBlackBox{
-	color: #fff;
-	margin-top: 50px;
 }
 
 .blacklist{position: relative;}
@@ -208,12 +197,10 @@ body.body-qtf{
 	line-height: 1.4em; 
 	clear: both;
 	display: block;
-	
 }
+
 .ficha{
-	background-color: #1E2224;
-	max-width: 140px;
-	margin: 0;
+	background-color: #000000;
 	padding: 10px 2px 5px;
 }
 
@@ -396,4 +383,5 @@ top: -6px;
 /* IE6/7 support */
 .clearfix {
     *zoom: 1;
+    padding: 35px 0;
 }

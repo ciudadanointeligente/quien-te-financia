@@ -6,7 +6,7 @@ title: José Antonio Gómez
 categories: 
 - candidatos
 
-featured-image: ../../images/post/gomez.png
+featured-image: ./../images/post/gomez.png
 
 gender: m
 
