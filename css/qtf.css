@@ -109,6 +109,8 @@ body.body-qtf{
 	font-weight: 200;
 	color: #fff;
 	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
 }
 
 .petition h2 a {
@@ -164,31 +166,10 @@ body.body-qtf{
 }
 .theBlackBox{
 	color: #fff;
-}
-
-.theBlackBox:after{
-	content: '';
-	display: block;
-	width: 120%;
-	height: 143px;
-	background: url(../images/theman/scissor_l.png) no-repeat right -15px, url(../images/theman/scissor_r.png) no-repeat left -15px transparent;
-	position: absolute;
-	bottom: -146px;
-	margin: 0 auto;
-	left: -10%;
+	margin-top: 50px;
 }
 
 .blacklist{position: relative;}
-/*.manAbove{
-	display: block;
-	width: 100%;
-	height: 136px;
-	background: url(../images/theman/fred-strings.png) no-repeat 50% 0 transparent;
-	position: relative;
-	margin: 0 auto;
-	z-index: 11;
-	opacity: 0.6;
-}*/
 
 .theWhiteBox{
 	background: #DBDBDB;
@@ -213,7 +194,7 @@ body.body-qtf{
 }
 
 .content h3 a.link-vota {
-	color: #82BD36;
+	color: #ef4036;
 }
 
 .content h3 a.link-vota:hover {
@@ -260,7 +241,7 @@ body.body-qtf{
 }
 small.actionQTF, .actionQTF{ 
 	line-height: 25px;
-	color: rgb(255, 92, 0);
+	color: #ef4036;
 }
 
 .innerficha{}
