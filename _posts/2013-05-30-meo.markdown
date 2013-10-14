@@ -7,7 +7,7 @@ categories:
 - candidatos
 - blacklist
 
-featured-image: ./../images/post/enriquez.png
+featured-image: ../../images/post/enriquez.png
 
 gender: m
 

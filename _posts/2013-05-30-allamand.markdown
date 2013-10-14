@@ -6,7 +6,7 @@ title: Andrés Allamand
 categories: 
 - candidatos
 
-featured-image: ./../images/post/allamand.png
+featured-image: ../../images/post/allamand.png
 
 gender: m
 
