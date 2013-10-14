@@ -6,7 +6,7 @@ title: Pablo Longueira
 categories: 
 - candidatos
 
-featured-image: ../../images/post/longueira.png
+featured-image: ./../images/post/longueira.png
 
 gender: m
 
