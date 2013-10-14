@@ -2,8 +2,6 @@
 body.body-qtf{
 	/*background: url(../images/qtf-bg.png) repeat 0 0 #292b2e;*/
 	background: #252525;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
 	color: #ACACAC;
 }
 
@@ -106,16 +104,17 @@ body.body-qtf{
 
 .petition h2 {
 	text-transform: uppercase;
-	font-size: 48px;
+	font-size: 65px;
 	text-align: center;
 	font-weight: 200;
 	color: #fff;
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
 }
 
 .petition h2 a {
 	background: #000;
 	color: #fff;
-	font-size: 28px;
+	font-size: 40px;
 	padding: 5px 15px;
 	float: right;
 }

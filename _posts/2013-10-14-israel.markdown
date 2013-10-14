@@ -1,19 +1,19 @@
 ---
 layout: candidato
 
-title: Franco Parisi
+title: Ricardo Israel
 
 categories: 
 - candidatos
 - blacklist
 
-featured-image: ../../images/post/parisi.png
+featured-image: ../../images/post/holt.png
 
 gender: m
 
-c_twitter: fr_parisi
+c_twitter: tjholt
 
-public-email: dvillegas@parisi2014.cl
+public-email: tomasresponde@jocelyn-holt.cl
 
 responde_gasto: n
 

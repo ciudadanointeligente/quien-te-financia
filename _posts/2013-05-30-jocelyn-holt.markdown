@@ -5,7 +5,7 @@ title: Tomás Jocelyn-Holt
 
 categories: 
 - candidatos
-- soon
+- blacklist
 
 featured-image: ../../images/post/holt.png
 

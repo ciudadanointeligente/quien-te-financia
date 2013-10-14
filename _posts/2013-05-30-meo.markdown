@@ -5,7 +5,7 @@ title: Marco Enríquez-Ominami
 
 categories: 
 - candidatos
-- soon
+- blacklist
 
 featured-image: ../../images/post/enriquez.png
 

@@ -5,7 +5,7 @@ title: Marcel Claude
 
 categories: 
 - candidatos
-- soon
+- blacklist
 
 featured-image: ../../images/post/claude.png
 

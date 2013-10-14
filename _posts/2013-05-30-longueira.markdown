@@ -5,7 +5,6 @@ title: Pablo Longueira
 
 categories: 
 - candidatos
-- soon
 
 featured-image: ../../images/post/longueira.png
 

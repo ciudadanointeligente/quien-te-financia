@@ -5,7 +5,7 @@ title: Roxana Miranda
 
 categories: 
 - candidatos
-- soon
+- blacklist
 
 featured-image: ../../images/post/miranda.png
 

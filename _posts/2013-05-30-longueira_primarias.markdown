@@ -5,7 +5,6 @@ title: Pablo Longueira
 
 categories: 
 - candidatos
-- p_blacklist
 
 featured-image: ../../images/post/longueira.png
 
