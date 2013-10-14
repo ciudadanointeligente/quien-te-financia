@@ -6,7 +6,7 @@ title: Michelle Bachelet
 categories: 
 - candidatos
 
-featured-image: ./../images/post/bachelet.png
+featured-image: ../../images/post/bachelet.png
 
 gender: f
 

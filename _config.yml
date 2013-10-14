@@ -1,3 +1,4 @@
+BASE_PATH: http://ciudadanointeligente.github.io/quien-te-financia-3
 markdown: rdiscount
 pygments: true
 permalink: /posts/:title
