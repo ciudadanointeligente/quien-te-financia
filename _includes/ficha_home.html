@@ -3,39 +3,54 @@
      <!--WHITE LIST-->
 
     {% if post.categories contains 'whitelist' %}
-      <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
-         {{ post.title }}
-        <img class=""src="{{ post.featured-image }}" />
-     </a>
 
+      {% if site.profile_detail == true %}
+         <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+             {{ post.title }}
+            <img class=""src="{{ post.featured-image }}" />
+         </a>
+
+      {% else %}
+          <div class="cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+             {{ post.title }}
+            <img class=""src="{{ post.featured-image }}" />
+         </div>
+
+      {% endif %}
       
       {% if post.star != null  %}
            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="¡Bien la transparencia de @{{ post.c_twitter}}! {{site.hashtag}}" ></a>
             
           {% else %}
-           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Bien @{{ post.c_twitter}}, gracias por decirnos #QuienTeFinancia. Así cada día logramos ser + transparentes." ></a>
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Bien @{{ post.c_twitter}}, gracias por decirnos #QuienTeFinancia." ></a>
           {% endif %}
       <br /> Comparte
-
-              
 
     {% endif %}
 
       <!--BLACK LIST-->
 
       {% if post.categories contains 'blacklist' %}
-        <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
-           {{ post.title }}     
-               <div class="noResponseBand">
-                <img class="" src="{{ post.featured-image }}" />
-              </div>
-        </a>
-     
+            {% if site.profile_detail == true %}
+              <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+                 {{ post.title }}     
+                     <div class="noResponseBand">
+                      <img class="" src="{{ post.featured-image }}" />
+                    </div>
+              </a>
+            {% else %}
+            <div class="cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+               {{ post.title }}     
+                   <div class="noResponseBand">
+                    <img class="" src="{{ post.featured-image }}" />
+                  </div>
+            </div>
+            {% endif %}
           
            <!-- Twitter -->
 
           <span class="oneAction">
-            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Oye @{{post.c_twitter}} cuéntanos con nombre y apellido quien te financia tu campaña electoral en {{site.hashtag}} en " ></a>
+            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Oye @{{post.c_twitter}} {{site.hashtag}} la campaña electoral?" ></a>
           </span><br />
           <div class="actionQTF">
               ¡Exígele transparencia!
