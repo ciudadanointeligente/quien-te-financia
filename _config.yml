@@ -5,6 +5,7 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
+profile_detail: false
 
 name: Quién te financia
 author: Fundación Ciudadano Inteligente
