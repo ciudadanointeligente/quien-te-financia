@@ -417,14 +417,11 @@ top: -6px;
 
 	.petition {
 		padding: 10px 0;
+		margin-top: 50px;
 	}
 
 	.petition h2 a {
 		font-size: 34px;
-	}
-
-	.siteLogo {
-		margin-left: 36%;
 	}
 
 }
@@ -449,6 +446,7 @@ top: -6px;
 
 	.petition {
 		height: 170px;
+		margin-top: 0;
 	}
 
 	.siteLogo {
@@ -482,18 +480,19 @@ top: -6px;
 }
 
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 360px) {
 
 	.petition-background {
-		height: 360px;
+		height: 310px;
 	}
 
 	.petition {
 		height: 170px;
+		margin-top: 50px;
 	}
 
 	.siteLogo {
-		margin: 40px 17% 0px;
+		margin: 0px 17% 0px;
 	}
 
 	.mainNav {
@@ -509,6 +508,10 @@ top: -6px;
 	.mainNav ul li {
 		margin-left: 0px;
 		clear: both;
+		width: 100%;
+	}
+
+	.content .candidatesList li {
 		width: 100%;
 	}
 
