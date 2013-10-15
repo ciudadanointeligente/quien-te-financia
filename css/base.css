@@ -285,3 +285,23 @@ border-top-left-radius: 4px;
 }
 .oneAction{margin-top: 10px;}
 
+/*Media queries*/
+
+@media screen and (max-width: 1024px) {
+
+  .sidebar {
+    top: 100px;
+    position: absolute;
+  }
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+  .sidebar {
+    top: 120px;
+  }
+
+}
+

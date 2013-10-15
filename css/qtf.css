@@ -28,6 +28,7 @@ body.body-qtf{
 	list-style: none;
 	position: relative;
 	margin-top: 26px;
+	-webkit-padding-start: 0px;
 }
 
 .siteLogo{
@@ -36,10 +37,16 @@ body.body-qtf{
 	display: block;
 	width: 225px;
 }
-.mainNav ul li{ float: left; margin-right: 10px;}
+.mainNav ul li { 
+	float: left; 
+	margin-left: 20px;
+}
+
 .centerCont{ 
 	max-width: 1000px;
 	margin: 0 auto;
+	padding: 10px;
+}
 }
 
 .lbCont{ 
@@ -96,7 +103,8 @@ body.body-qtf{
 }
 
 .petition {
-	height: 300px;
+	height: 210px;
+    padding: 35px 0;
 }
 
 .petition h2 {
@@ -138,7 +146,7 @@ body.body-qtf{
 	list-style: none;
 	padding: 5px 3px;
 	margin: 0 10px 10px 0;
-	width: 180px;
+	width: 170px;
 	float: left;
 	text-align: center;
 }
@@ -158,7 +166,10 @@ body.body-qtf{
 	z-index: 20;
 }
 
-.blacklist{position: relative;}
+.blacklist {
+	position: relative;
+	margin-top: 30px;
+}
 
 .theWhiteBox{
 	background: #DBDBDB;
@@ -342,6 +353,16 @@ font-size: 70%;}
     color: #333;
 }
 
+.twitter-share-button {
+	margin-top: 8px;
+}
+
+/*Ficha candidatos*/
+
+.lbCont {
+	padding: 20px;
+}
+
 
 /* Ampolleta */
 
@@ -383,5 +404,121 @@ top: -6px;
 /* IE6/7 support */
 .clearfix {
     *zoom: 1;
-    padding: 35px 0;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1024px) {
+
+	.bulb_container {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.petition h2 {
+		font-size: 50px;
+	}
+
+	.petition {
+		padding: 10px 0;
+		margin-top: 50px;
+	}
+
+	.petition h2 a {
+		font-size: 34px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.content .candidatesList li {
+		width: 165px;
+	}
+
+}
+
+@media screen and (max-width: 604px) {
+
+	.petition h2 {
+		font-size: 42px;
+	}
+
+	.petition-background {
+		height: 295px;
+	}
+
+	.petition {
+		height: 170px;
+		margin-top: 0;
+	}
+
+	.siteLogo {
+		margin-left: 33%;
+	}
+
+}
+
+@media screen and (max-width: 534px) {
+
+	.petition h2 {
+		font-size: 34px;
+	}
+
+	.petition h2 a {
+		font-size: 28px;
+	}
+
+	.mainNav ul li {
+		margin-left: 10px;
+	}
+
+	.petition-background {
+		height: 260px;
+	}
+
+	.petition {
+		height: 140px;
+	}
+
+}
+
+
+@media screen and (max-width: 360px) {
+
+	.petition-background {
+		height: 310px;
+	}
+
+	.petition {
+		height: 170px;
+		margin-top: 50px;
+	}
+
+	.siteLogo {
+		margin: 0px 17% 0px;
+	}
+
+	.mainNav {
+		float: none;
+		text-align: center;
+	}
+
+	.mainNav ul {
+		float: none;
+		margin-top: 0px;
+	}
+
+	.mainNav ul li {
+		margin-left: 0px;
+		clear: both;
+		width: 100%;
+	}
+
+	.content .candidatesList li {
+		width: 100%;
+	}
+
 }

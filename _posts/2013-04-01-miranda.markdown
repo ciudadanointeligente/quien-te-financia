@@ -1,0 +1,18 @@
+---
+layout: candidato
+
+title: Roxana Miranda
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/miranda.png
+
+gender: f
+
+c_twitter: roxanaespueblo
+
+---
+
+Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.

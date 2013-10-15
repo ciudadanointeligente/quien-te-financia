@@ -1,0 +1,19 @@
+---
+layout: candidato
+
+title: Evelyn Matthei
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/matthei.png
+
+gender: f
+
+c_twitter: Evelyn_2014
+
+---
+
+Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
+
