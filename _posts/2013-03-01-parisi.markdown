@@ -1,0 +1,18 @@
+---
+layout: candidato
+
+title: Franco Parisi
+
+categories: 
+- candidatos
+- blacklist
+
+featured-image: ../../images/post/parisi.png
+
+gender: m
+
+c_twitter: fr_parisi
+
+---
+
+Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
