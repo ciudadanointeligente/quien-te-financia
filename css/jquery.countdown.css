@@ -1,3 +1,25 @@
+/*Link vota*/
+
+.link-vota {
+	background: #14b9d5;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+.link-vota a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.content .link-vota p {
+	font-size: 24px;
+	margin-top: -8px;
+	margin-bottom: 10px;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 200;
+}
+
 .countdownHolder{
 	width:450px;
 	margin:0 auto;
