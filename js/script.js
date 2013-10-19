@@ -23,10 +23,10 @@ $(function(){
 			message += seconds + " segundo" + ( seconds==1 ? '':'s' ) + " ";
 			
 			if(newYear){
-				message += "para el lanzamiento de votainteligente.org!";
+				message += "para el lanzamiento de votainteligente.cl!";
 			}
 			else {
-				message += "para el lanzamiento de votainteligente.org!";
+				message += "para el lanzamiento de votainteligente.cl!";
 			}
 			
 			note.html(message);
