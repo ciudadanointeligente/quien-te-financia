@@ -125,6 +125,7 @@ body.body-qtf{
 	padding: 5px 15px;
 	float: right;
 	margin-top: 10px;
+	text-decoration: none;
 }
 
 .petition h2 a:hover {
@@ -190,14 +191,6 @@ body.body-qtf{
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
-}
-
-.content h3 a.link-vota {
-	color: #ef4036;
-}
-
-.content h3 a.link-vota:hover {
-	color: #FFFFFF;
 }
 
 .candidatesList .cName{ 
@@ -402,6 +395,32 @@ top: -6px;
 /* IE6/7 support */
 .clearfix {
     *zoom: 1;
+}
+
+/*Link vota*/
+
+
+a .link-vota {
+	color: #fff;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+a .link-vota span {
+	font-weight: 700;
+}
+
+a:hover .link-vota {
+	background: #0099B3;
+}
+
+.theBlackBox a:-webkit-any-link {
+	text-decoration: none;
+}
+
+.link-vota img {
+	vertical-align: middle;
 }
 
 
