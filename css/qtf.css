@@ -141,6 +141,13 @@ body.body-qtf{
 	font-size: 24px;
 }
 
+.nro-peticiones {
+	font-size: 21px;
+	font-weight: 500;
+	color: #ef4036;
+	text-transform: none;
+}
+
 /* home candidates' list */
 
 .content .candidatesList li {
