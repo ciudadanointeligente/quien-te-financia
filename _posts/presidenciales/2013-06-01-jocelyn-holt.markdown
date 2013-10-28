@@ -4,7 +4,7 @@ layout: candidato
 title: Tomás Jocelyn-Holt
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
 featured-image: ../../images/post/holt.png

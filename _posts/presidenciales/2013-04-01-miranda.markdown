@@ -1,19 +1,18 @@
 ---
 layout: candidato
 
-title: Michelle Bachelet
+title: Roxana Miranda
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
-featured-image: ../../images/post/bachelet.png
+featured-image: ../../images/post/miranda.png
 
 gender: f
 
-c_twitter: comandomichelle
+c_twitter: roxanaespueblo
+
 ---
 
 Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
-
-

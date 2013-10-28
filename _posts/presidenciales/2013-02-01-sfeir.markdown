@@ -1,17 +1,17 @@
 ---
 layout: candidato
 
-title: Ricardo Israel
+title: Alfredo Sfeir
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
-featured-image: ../../images/post/israel.jpg
+featured-image: ../../images/post/sfeir.png
 
 gender: m
 
-c_twitter: ISRAELPRESIDENT
+c_twitter: sfeir2014
 
 ---
 

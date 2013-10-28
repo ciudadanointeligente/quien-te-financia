@@ -4,7 +4,7 @@ layout: candidato
 title: Franco Parisi
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
 featured-image: ../../images/post/parisi.png
