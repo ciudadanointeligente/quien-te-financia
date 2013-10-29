@@ -16,7 +16,7 @@ c_twitter: marcoporchile
 ---
 
 
-Ingresos
+<h3>Ingresos</h3>
 
 Origen | Monto 
 ------------- | -------------:
@@ -26,7 +26,7 @@ Aportes Reservados al 28 de octubre | $ 239.873.370
 Aportes Propios | $ 100.000.000
 TOTAL | $ 639.873.370
 
-Gastos
+<h3>Gastos</h3>
 
 Partida | Detalle | Monto 
 ------------- | ------------- | -------------:

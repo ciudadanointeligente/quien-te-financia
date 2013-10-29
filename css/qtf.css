@@ -302,6 +302,18 @@ font-size: 70%;}
 
 
 .spendItem{ text-transform: uppercase;}
+
+table {
+	border: 1px solid #000;
+	text-align: left;
+	width: 100%;
+}
+
+td, th {
+	padding: 5px;
+	border: 1px solid #000;
+}
+
 .table tr.otros td{
 	font-size: 80%;
 	font-weight: lighter;
