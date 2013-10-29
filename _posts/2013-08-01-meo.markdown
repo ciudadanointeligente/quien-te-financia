@@ -16,6 +16,7 @@ c_twitter: marcoporchile
 ---
 
 
+
 <h3>Ingresos</h3>
 
 Origen | Monto 
@@ -25,6 +26,7 @@ Credito Bancario Banco Estado | $ 50.000.000
 Aportes Reservados al 28 de octubre | $ 239.873.370
 Aportes Propios | $ 100.000.000
 TOTAL | $ 639.873.370
+
 
 <h3>Gastos</h3>
 
@@ -42,3 +44,6 @@ Caja | Saldo en Caja | $56.855.564
  | SUB	TOTAL	| $639.873.370
 
 *Al 28 de octubre
+
+Además, revisa el documento que transparenta sus <a href="https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit?usp=drive_web">gastos reservados</a>
+
