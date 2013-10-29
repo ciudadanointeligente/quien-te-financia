@@ -43,6 +43,5 @@ Caja | Saldo en Caja | $56.855.564
 
 *Al 28 de octubre
 
-Además, revisa el documento que transparenta sus gastos reservados
-https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit?usp=drive_web
+Además, revisa el documento que transparenta sus <a href="https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit?usp=drive_web">gastos reservados</a>
 
