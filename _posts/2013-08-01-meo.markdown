@@ -17,10 +17,10 @@ c_twitter: marcoporchile
 
 Ingresos
 
-Origen | Monto
-------------- | -------------
-Credito Bancario Banco Corpbanca | $250.000.000
-Credito Bancario Banco Estado | $50.000.000
-Aportes Reservados al 28 de octubre | $239.873.370
-Aportes Propios | $ 100.000.000
-
+| Origen | Monto |
+| ------------- | -------------: |
+| Credito Bancario Banco Corpbanca | $ 250.000.000 |
+| Credito Bancario Banco Estado | $ 50.000.000 |
+| Aportes Reservados al 28 de octubre | $ 239.873.370 |
+| Aportes Propios | $ 100.000.000 |
+| TOTAL | $ 639.873.370 |
