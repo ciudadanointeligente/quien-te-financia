@@ -56,6 +56,10 @@ title: "Quien te financia"
 </div>
 </section>
 
+{% if (site.categories.senadores or site.categories.diputados) %}
+   
+
+
 <section class="content home parlamentarios">
 
   <div class="manAbove"> </div>
@@ -92,6 +96,8 @@ title: "Quien te financia"
   </ul>
 </div>
 </section>
+
+{% endif %}
       <a href="http://votainteligente.cl/" target="_blank">
         <div class="link-vota">
             Encuentra a tu candidato en <img src="{{ post.url }}/images/icono-votainteligente.png"><span>votainteligente.cl</span>
