@@ -15,12 +15,30 @@ c_twitter: marcoporchile
 
 ---
 
+
 Ingresos
 
-| Origen | Monto |
-| ------------- | -------------: |
-| Credito Bancario Banco Corpbanca | $ 250.000.000 |
-| Credito Bancario Banco Estado | $ 50.000.000 |
-| Aportes Reservados al 28 de octubre | $ 239.873.370 |
-| Aportes Propios | $ 100.000.000 |
-| TOTAL | $ 639.873.370 |
+Origen | Monto 
+------------- | -------------:
+Credito Bancario Banco Corpbanca | $ 250.000.000
+Credito Bancario Banco Estado | $ 50.000.000
+Aportes Reservados al 28 de octubre | $ 239.873.370
+Aportes Propios | $ 100.000.000
+TOTAL | $ 639.873.370
+
+Gastos
+
+Partida | Detalle | Monto 
+------------- | ------------- | -------------:
+Publicidad | Medios Radiales y Vía Publica  | $209.029.318 
+Honorarios | Asesorías y Equipo RRHH | $46.800.000 
+Imprenta | Material gráfico | $30.721.676
+Asesorías | Internet, publicidad y comunicaciones | $47.466.812
+Producción | Franja TV | $95.000.000
+Agendas | Transporte y Logística | $54.000.000
+Eventos | Producción de eventos | $70.000.000 
+Gastos Menores | Gastos menores en giras y equipos territoriales | $30.000.000 
+Caja | Saldo en Caja | $56.855.564 
+ | SUB	TOTAL	| $639.873.370
+
+*Al 28 de octubre
