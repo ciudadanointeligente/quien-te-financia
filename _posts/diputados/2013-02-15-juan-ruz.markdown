@@ -1,0 +1,39 @@
+---
+layout: candidato
+
+title: Juan Carlos Ruz 
+
+categories:
+- diputados
+- whitelist
+
+featured-image: ../../images/diputados/juan-ruz.png
+
+gender: m
+
+c_twitter: 
+
+---
+
+
+## Ingresos
+
+
+**76.000** Colecta de amigos y familiares
+**200.000** De mi sueldo
+
+
+## Financistas
+
+
+Patricio Morales **10.000**, Perla Moreira **10.000**, Macarena Puga **10.000**, Pablo Ruz **10.000**, Paula Salazar **10.000**, Ana Sofía Ruz **5.000**, Francisco Perez **5.000**, Isabel Ruz **8.000**, Loreto Gonzalez **8.000**
+
+
+## Gastos
+
+
+**40.000** Página Web
+**75.000** Facebook Ads
+**100.000** Material Gráfico
+**15.000** Banderas
+
