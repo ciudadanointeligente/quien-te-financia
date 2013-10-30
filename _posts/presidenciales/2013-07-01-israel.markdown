@@ -13,6 +13,8 @@ gender: m
 
 c_twitter: ISRAELPRESIDENT
 
+extra_info_url: http://www.votainteligente.cl/election/presidencial/ricardo-israel
+
 ---
 
 Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.

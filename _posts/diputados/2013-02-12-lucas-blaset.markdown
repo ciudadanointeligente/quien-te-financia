@@ -13,6 +13,8 @@ gender: m
 
 c_twitter: LucasBlaset
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-23/lucas-blaset-perez
+
 ---
 
 
@@ -31,5 +33,5 @@ Los gastos hasta el momento son de mi patrimonio personal y familiar.
 ## Gastos
 
 
-**750.000** Realizacioon de sitio Web y diseños en Estudio NOSESO,por pagar en Abril
-**750.000** Propaganda "Revista Oriente", por pagar en Abril
+- **750.000** Realizacioon de sitio Web y diseños en Estudio NOSESO,por pagar en Abril
+- **750.000** Propaganda "Revista Oriente", por pagar en Abril

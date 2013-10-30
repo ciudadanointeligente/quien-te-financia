@@ -13,6 +13,8 @@ gender: m
 
 c_twitter: Fedewertd
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-5/federico-ewert-daza
+
 ---
 
 
@@ -31,8 +33,8 @@ No tengo
 ## Gastos
 
 
-Campaña Digital                        **$1.400.000**
-Volantes, calendarios, folletos        **$1.600.000**
-Propaganda Radial                      **$300.000**
-Gastos Generales                       **$700.000**
+- Campaña Digital                        **$1.400.000**
+- Volantes, calendarios, folletos        **$1.600.000**
+- Propaganda Radial                      **$300.000**
+- Gastos Generales                       **$700.000**
 

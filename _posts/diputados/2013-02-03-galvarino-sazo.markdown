@@ -13,13 +13,15 @@ gender: m
 
 c_twitter: GalvarinoSazo
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-19/galvarino-sazo-bolbaran
+
 ---
 
 ## Ingresos
 
 
-Aporte propio : **$3.000.000**
-Credito Bancario : **$5.000.000**
+- Aporte propio: **$3.000.000**
+- Credito Bancario: **$5.000.000**
 
 
 ## Financistas
@@ -31,13 +33,13 @@ Ninguno
 ## Gastos
 
 
-Movilizacion : **300.000**
-Pagina WEB : **250.000**
-Volantes : **2.000.000**
-Revista : **1.500.000**
-Afiches : **1.200.000**
-Poleras y Gorros : **200.000**
-Pago Gente : **400.000**
+- Movilizacion: **$300.000**
+- Pagina WEB: **$250.000**
+- Volantes: **$2.000.000**
+- Revista: **$1.500.000**
+- Afiches: **$1.200.000**
+- Poleras y Gorros: **$200.000**
+- Pago Gente: **$400.000**
 
 
 Transporte, aún sin determinar

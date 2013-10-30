@@ -18,13 +18,13 @@
 
       {% endif %}
       
-      {% if post.star != null  %}
+      {% if post.categories contains 'starred' %}
            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="¡Bien la transparencia de @{{ post.c_twitter}}! {{site.hashtag}}" ></a>
+            {% if post.gender == 'm' %} <div class="starred">¡Felicítalo! :)</div> {% else %}  <div class="starred">¡Felicítala! :) </div> {% endif %}
             
           {% else %}
-           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Bien @{{ post.c_twitter}}, gracias por decirnos #QuienTeFinancia." ></a>
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Bien @{{ post.c_twitter}}, gracias por decirnos #QuienTeFinancia." ></a> <div class="declara">¡Comparte!</div>
           {% endif %}
-      <br /> <p class="felicitalos">¡Felicítalos!</p>
 
     {% endif %}
 

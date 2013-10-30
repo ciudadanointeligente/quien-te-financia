@@ -13,6 +13,9 @@ gender: f
 
 c_twitter: Evelyn_2014
 
+extra_info_url: http://www.votainteligente.cl/election/presidencial/evelyn-matthei
+
+
 ---
 
 Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.

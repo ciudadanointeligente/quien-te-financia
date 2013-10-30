@@ -13,6 +13,8 @@ gender: m
 
 c_twitter: 
 
+extra_info_url: http://votainteligente.cl/election/diputados-por-distrito-2/luis-corrales-villalobos
+
 ---
 
 

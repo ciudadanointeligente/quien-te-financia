@@ -13,6 +13,9 @@ gender: m
 
 c_twitter: OctavioGonzal
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-22/octavio-gonzalez-ojeda
+
+
 ---
 
 
@@ -32,7 +35,7 @@ No acepto financiamiento de privados, empresas, anonimos, ni amigos del mundo po
 ## Gastos
 
 
-3 Gigantografias por **$2.000.000**
-20.000 volantes por **$500.000**
-varios por **$500.000**
+- 3 Gigantografias por **$2.000.000**
+- 20.000 volantes por **$500.000**
+- varios por **$500.000**
 

@@ -12,6 +12,7 @@ gender: m
 
 c_twitter: 
 
+extra_info_url: http://votainteligente.cl/election/senadores-por-biobio-costa/osman-vasquez-varela
 ---
 
 

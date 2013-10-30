@@ -13,6 +13,9 @@ gender: m
 
 c_twitter: 
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-35/cristian-salinas-herrera
+
+
 ---
 
 
@@ -31,12 +34,12 @@ Ahorros propios: **$1.252.000**
 ## Gastos
 
 
-Difusión radial (6 radios de la zona): **$ 455.000**
-Grabación de un jingle:                **$ 25.000**
-Publicidad estática (palomas):         **$ 300.000**
-Volantes (20.000 unidades)             **$ 238.000**
-Chapitas, poleras, jockeys             **$ 84.000**
-Bencina                                **$ 150.000**
+- Difusión radial (6 radios de la zona): **$ 455.000**
+- Grabación de un jingle:                **$ 25.000**
+- Publicidad estática (palomas):         **$ 300.000**
+- Volantes (20.000 unidades)             **$ 238.000**
+- Chapitas, poleras, jockeys             **$ 84.000**
+- Bencina                                **$ 150.000**
                                        **$ 1.252.000**
 
 

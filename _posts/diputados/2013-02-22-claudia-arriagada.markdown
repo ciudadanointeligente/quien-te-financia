@@ -12,6 +12,8 @@ gender: f
 
 c_twitter: 
 
+extra_info_url: http://votainteligente.cl/election/diputados-por-distrito-44/claudia-arriagada-parra
+
 ---
 
 

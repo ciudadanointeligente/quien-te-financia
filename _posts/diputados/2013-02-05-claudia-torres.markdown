@@ -13,6 +13,8 @@ gender: f
 
 c_twitter: clau_diputada
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-59/claudia-torres-delgado
+
 ---
 
 
@@ -31,9 +33,9 @@ Aporte a través de compra de entradas y consumo en evento artístico cultural d
 ## Gastos
 
 
-Pago de espacio radial proceso de recolección de firmas **$208.000** 
-Gastos de fotocopias y notario **$50.000**
-Gasto en 1 lienzo **$ 26.000**
+- Pago de espacio radial proceso de recolección de firmas **$208.000** 
+- Gastos de fotocopias y notario **$50.000**
+- Gasto en 1 lienzo **$ 26.000**
 
 
 

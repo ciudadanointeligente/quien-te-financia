@@ -13,14 +13,16 @@ gender: m
 
 c_twitter: 
 
+extra_info_url: http://www.votainteligente.cl/election/diputados-por-distrito-25/juan-carlos-ruz-herrera
+
 ---
 
 
 ## Ingresos
 
 
-**76.000** Colecta de amigos y familiares
-**200.000** De mi sueldo
+- **76.000** Colecta de amigos y familiares
+- **200.000** De mi sueldo
 
 
 ## Financistas
@@ -32,8 +34,8 @@ Patricio Morales **10.000**, Perla Moreira **10.000**, Macarena Puga **10.000**,
 ## Gastos
 
 
-**40.000** Página Web
-**75.000** Facebook Ads
-**100.000** Material Gráfico
-**15.000** Banderas
+- **40.000** Página Web
+- **75.000** Facebook Ads
+- **100.000** Material Gráfico
+- **15.000** Banderas
 

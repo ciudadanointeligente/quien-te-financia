@@ -13,6 +13,8 @@ gender: m
 
 c_twitter: 
 
+extra_info_url: http://votainteligente.cl/election/senadores-por-ohiggins/luis-felipe-garcia-merino
+
 ---
 
 ## Ingresos
