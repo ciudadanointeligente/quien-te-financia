@@ -5,7 +5,7 @@ title: Ricardo Israel
 
 categories: 
 - candidatos
-- blacklist
+- whitelist
 
 featured-image: ../../images/post/israel.jpg
 
