@@ -16,6 +16,8 @@ c_twitter: marcoporchile
 ---
 
 
+<h3>Esta es la respuesta del candidato:</h3>
+
 
 <h3>Ingresos</h3>
 
