@@ -16,10 +16,7 @@ c_twitter: marcoporchile
 ---
 
 
-<h3>Esta es la respuesta del candidato:</h3>
-
-
-<h3>Ingresos</h3>
+## Ingresos
 
 Origen | Monto 
 ------------- | -------------:
@@ -30,7 +27,7 @@ Aportes Propios | $ 100.000.000
 TOTAL | $ 639.873.370
 
 
-<h3>Gastos</h3>
+## Gastos
 
 Partida | Detalle | Monto 
 ------------- | ------------- | -------------:
@@ -47,5 +44,9 @@ Caja | Saldo en Caja | $56.855.564
 
 *Al 28 de octubre
 
-Además, revisa el documento que transparenta sus <a href="https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit?usp=drive_web">gastos reservados</a>
+Además, revisa el documento que transparenta sus a [gastos reservados][gastos_reservados] 
 
+
+
+
+[gastos_reservados] : https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit?usp=drive_web
