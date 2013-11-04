@@ -1,5 +1,6 @@
 ---
 layout: candidato
+published: false
 
 title: Luis García 
 
