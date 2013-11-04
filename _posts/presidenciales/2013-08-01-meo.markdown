@@ -4,7 +4,7 @@ layout: candidato
 title: Marco Enríquez-Ominami
 
 categories: 
-- candidatos
+- presidencial
 - whitelist
 
 featured-image: ../../images/post/enriquez.png
@@ -12,6 +12,8 @@ featured-image: ../../images/post/enriquez.png
 gender: m
 
 c_twitter: marcoporchile
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/marco-enriquez-ominami
 
 ---
 

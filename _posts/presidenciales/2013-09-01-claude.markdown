@@ -4,7 +4,7 @@ layout: candidato
 title: Marcel Claude
 
 categories: 
-- candidatos
+- presidencial
 - whitelist
 
 featured-image: ../../images/post/claude.png
@@ -12,6 +12,8 @@ featured-image: ../../images/post/claude.png
 gender: m
 
 c_twitter: todosalamoneda
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/marcel-claude
 
 ---
 

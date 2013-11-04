@@ -7,13 +7,15 @@
       Difunde la transparencia
 
             <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{page.c_twitter}}? {{site.hashtag}}" ></a>
-        
-      {% endif %}
-
-      {% if page.categories contains 'blacklist' %}
+      {% elsif page.categories contains 'blacklist' %}
           Exígele transparencia 
            <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text=" Mal @{{page.c_twitter}}. Contesta {{site.hashtag}} en " ></a>
       {% endif %}
+     
+      {% if page.extra_info_url !='' and page.extra_info_url %}
+      <p>Revisa el perfil del candidato en <a href="{{ page.extra_info_url }}" target="_blank" >  Vota Inteligente</a> </p>
+      {% endif %}
+
     </div>
   </div>  
 </div>

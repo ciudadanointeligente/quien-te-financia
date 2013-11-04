@@ -1,19 +1,21 @@
 ---
 layout: candidato
 
-title: Evelyn Matthei
+title: Michelle Bachelet
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
-featured-image: ../../images/post/matthei.png
+featured-image: ../../images/post/bachelet.png
 
 gender: f
 
-c_twitter: Evelyn_2014
+c_twitter: comandomichelle
 
+extra_info_url: http://www.votainteligente.cl/election/presidencial/michelle-bachelet
 ---
 
 Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
+
 

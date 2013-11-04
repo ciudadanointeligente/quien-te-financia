@@ -4,7 +4,7 @@ layout: candidato
 title: Tomás Jocelyn-Holt
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
 featured-image: ../../images/post/holt.png
@@ -12,6 +12,8 @@ featured-image: ../../images/post/holt.png
 gender: m
 
 c_twitter: tjholt
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/tomas-jocelyn-holt
 
 ---
 

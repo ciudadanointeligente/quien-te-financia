@@ -1,21 +1,20 @@
 ---
 layout: candidato
 
-title: Alfredo Sfeir
+title: Franco Parisi
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
-featured-image: ../../images/post/sfeir.png
+featured-image: ../../images/post/parisi.png
 
 gender: m
 
-c_twitter: sfeir2014
+c_twitter: fr_parisi
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/franco-parisi
 
 ---
 
 Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
-
-
-

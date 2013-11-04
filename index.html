@@ -17,9 +17,9 @@ title: "Quien te financia"
         });
     </script>
 
-{% include petition.html %}
 
-<section class="content home blacklist">
+
+<section class="content home presidenciales">
 
   <div class="manAbove"> </div>
   <div class="theBlackBox">
@@ -28,7 +28,7 @@ title: "Quien te financia"
   <ul class="candidatesList">
    
       {% for post in site.posts %}
-        {% if post.categories contains 'blacklist' %}
+        {% if post.categories contains 'blacklist' and post.categories contains 'presidencial' %}
             <li>
               {% include ficha_home.html %}
             </li> 
@@ -37,7 +37,7 @@ title: "Quien te financia"
       {% endfor %}
     
     {% for post in site.posts %}
-      {% if post.categories contains 'whitelist' %}
+      {% if post.categories contains 'whitelist' and post.categories contains 'presidencial' %}
           <li>
            {% include ficha_home.html %}
           </li>
@@ -45,7 +45,7 @@ title: "Quien te financia"
     {% endfor %}
 
     {% for post in site.posts %}
-      {% if post.categories contains 'soon' %}
+      {% if post.categories contains 'soon' and post.categories contains 'presidencial' %}
           <li>
            {% include ficha_home.html %}
           </li>
@@ -53,13 +53,60 @@ title: "Quien te financia"
     {% endfor %}
   </ul>
   </ul>
+</div>
+</section>
+
+{% include petition.html %}
+
+{% if (site.categories.senadores or site.categories.diputados) %}
+   
+
+
+<section class="content home parlamentarios">
+
+  <div class="manAbove"> </div>
+  <div class="theBlackBox">
+    <h2 class="titleLine"> Estos son los parlamentarios que están transparentando la política chilena</h2>
+    
+  <ul class="candidatesList">
+   
+      {% for post in site.posts %}
+        {% if post.categories contains 'blacklist' and (post.categories contains 'diputados' or post.categories contains 'senadores')%}
+            <li>
+              {% include ficha_home.html %}
+            </li> 
+           
+        {% endif %}
+      {% endfor %}
+    
+    {% for post in site.posts %}
+      {% if post.categories contains 'whitelist' and (post.categories contains 'diputados' or post.categories contains 'senadores')%}
+          <li>
+           {% include ficha_home.html %}
+          </li>
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.posts %}
+      {% if post.categories contains 'soon' and (post.categories contains 'diputados' or post.categories contains 'senadores')%}
+          <li>
+           {% include ficha_home.html %}
+          </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  </ul>
+</div>
+</section>
+
+{% endif %}
+
+
       <a href="http://votainteligente.cl/" target="_blank">
         <div class="link-vota">
             Encuentra a tu candidato en <img src="{{ post.url }}/images/icono-votainteligente.png"><span>votainteligente.cl</span>
         </div>
       </a>
-</div>
-</section>
 
 <script>
 $(document).ready(function(){

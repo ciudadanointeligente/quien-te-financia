@@ -4,7 +4,7 @@ layout: candidato
 title: Ricardo Israel
 
 categories: 
-- candidatos
+- presidencial
 - whitelist
 
 featured-image: ../../images/post/israel.jpg
@@ -12,6 +12,8 @@ featured-image: ../../images/post/israel.jpg
 gender: m
 
 c_twitter: ISRAELPRESIDENT
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/ricardo-israel
 
 ---
 

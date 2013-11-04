@@ -1,18 +1,22 @@
 ---
 layout: candidato
 
-title: Franco Parisi
+title: Evelyn Matthei
 
 categories: 
-- candidatos
+- presidencial
 - blacklist
 
-featured-image: ../../images/post/parisi.png
+featured-image: ../../images/post/matthei.png
 
-gender: m
+gender: f
 
-c_twitter: fr_parisi
+c_twitter: Evelyn_2014
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/evelyn-matthei
+
 
 ---
 
 Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
+

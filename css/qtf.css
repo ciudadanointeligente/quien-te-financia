@@ -4,6 +4,14 @@ body.body-qtf{
 	color: #ACACAC;
 }
 
+body.body-qtf .declara {
+	color: #ACACAC;
+}
+
+body.body-qtf .starred {
+	color: #E4EC15;
+}
+
 .headTop{
 	background-color: #000;
 	color: #fff;
@@ -96,7 +104,7 @@ body.body-qtf{
 	width: 100%;
 	position: absolute;
 	background: #ef4036;
-	top: 70px;
+	top: 780px;
 	z-index: -1;
 	left: 0;
 	height: 320px;
@@ -152,8 +160,8 @@ body.body-qtf{
 
 .content .candidatesList li {
 	list-style: none;
-	padding: 5px 3px;
-	margin: 0 10px 10px 0;
+	padding: 5px 7px;
+	margin: 0 7px 10px 0;
 	width: 170px;
 	float: left;
 	text-align: center;
@@ -193,11 +201,15 @@ body.body-qtf{
 
 }
 
-.cName, h2.titleLine{font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;}
+.cName, h2.titleLine{
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+}
+
 .titleLine{
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
+	padding-top: 10px;
 }
 
 .candidatesList .cName{ 
@@ -209,8 +221,13 @@ body.body-qtf{
 	display: block;
 }
 
-.ficha{
+.presidenciales .ficha{
 	background-color: #000000;
+	padding: 10px 2px 5px;
+}
+
+.parlamentarios .ficha{
+	background-color: #383838;
 	padding: 10px 2px 5px;
 }
 
@@ -230,6 +247,16 @@ body.body-qtf{
 	margin: 1em;
 }
 
+.presidenciales .theBlackBox {
+	background-color: #2b2b2b;
+	padding-left: 23px;
+}
+
+.parlamentarios .theBlackBox {
+	background-color: #2b2b2b;
+	padding-left: 23px;
+}
+
 .content .theWhiteBox hr{
 	margin: 1em;
 	background-image: url(../images/rope-hr.png);
@@ -241,7 +268,11 @@ small.actionQTF, .actionQTF{
 	color: #ef4036;
 }
 
-.innerficha{}
+.lightBox h2{
+	color: black;
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-weight: 400;
+}
 .introCandidate{
 	margin-top: 35px;
 	display: block;
@@ -434,7 +465,7 @@ a:hover .link-vota {
 	background: #0099B3;
 }
 
-.theBlackBox a:-webkit-any-link {
+a:-webkit-any-link {
 	text-decoration: none;
 }
 

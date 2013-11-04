@@ -1,0 +1,20 @@
+---
+layout: candidato
+
+title: Roxana Miranda
+
+categories: 
+- presidencial
+- blacklist
+
+featured-image: ../../images/post/miranda.png
+
+gender: f
+
+c_twitter: roxanaespueblo
+
+extra_info_url: http://www.votainteligente.cl/election/presidencial/roxana-miranda
+
+---
+
+Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
