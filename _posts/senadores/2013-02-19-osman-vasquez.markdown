@@ -1,6 +1,6 @@
 ---
 layout: candidato
-published: true
+published: false
 
 title: Osmán Vásquez
 categories:

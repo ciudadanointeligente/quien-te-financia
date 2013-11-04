@@ -5,7 +5,7 @@ title: Marco Enríquez-Ominami
 
 categories: 
 - presidencial
-- blacklist
+- whitelist
 
 featured-image: ../../images/post/enriquez.png
 
@@ -17,5 +17,37 @@ extra_info_url: http://www.votainteligente.cl/election/presidencial/marco-enriqu
 
 ---
 
-Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
 
+## Ingresos
+
+Origen | Monto 
+------------- | -------------:
+Credito Bancario Banco Corpbanca | $ 250.000.000
+Credito Bancario Banco Estado | $ 50.000.000
+Aportes Reservados al 28 de octubre | $ 239.873.370
+Aportes Propios | $ 100.000.000
+TOTAL | $ 639.873.370
+
+
+## Gastos
+
+Partida | Detalle | Monto 
+------------- | ------------- | -------------:
+Publicidad | Medios Radiales y Vía Publica  | $209.029.318 
+Honorarios | Asesorías y Equipo RRHH | $46.800.000 
+Imprenta | Material gráfico | $30.721.676
+Asesorías | Internet, publicidad y comunicaciones | $47.466.812
+Producción | Franja TV | $95.000.000
+Agendas | Transporte y Logística | $54.000.000
+Eventos | Producción de eventos | $70.000.000 
+Gastos Menores | Gastos menores en giras y equipos territoriales | $30.000.000 
+Caja | Saldo en Caja | $56.855.564 
+ | SUB	TOTAL	| $639.873.370
+
+*Al 28 de octubre
+
+Además, revisa el documento del SERVEL que transparenta sus [gastos reservados][gastosreservados].
+
+
+
+[gastosreservados]: https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit

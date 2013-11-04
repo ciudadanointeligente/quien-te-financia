@@ -5,7 +5,7 @@ title: Ricardo Israel
 
 categories: 
 - presidencial
-- blacklist
+- whitelist
 
 featured-image: ../../images/post/israel.jpg
 
@@ -17,7 +17,8 @@ extra_info_url: http://www.votainteligente.cl/election/presidencial/ricardo-isra
 
 ---
 
-Aún sin información. Aquí encontrarás de dónde viene el financiamiento de la campaña de este candidato, una vez que nos envíe la información.
+
+<h3>Esta es la respuesta del candidato:</h3>
 
 
-
+Nuestro financiamiento es del Estado. Un anticipo del SERVEL por las candidaturas parlamentarias y de Cores y un crédito del banco del Estado. Que devolveremos después de la elección. Nuestro presupuesto es aproximadamente de 200 millones de pesos para toda la campaña incluidas la presidencial, parlamentaria y de CORES. Consideramos inmoral que otras candidaturas estén tirando a la calle más de 20 millones de dolares. Creemos que se debe limitar el gasto electoral, transparentarlo completamente y fiscalizar su real ejecución.
