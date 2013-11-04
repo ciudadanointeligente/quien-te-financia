@@ -44,9 +44,8 @@ Caja | Saldo en Caja | $56.855.564
 
 *Al 28 de octubre
 
-Además, revisa el documento del SERVEL que transparenta sus [gastos reservados][gastos_reservados]
+Además, revisa el documento del SERVEL que transparenta sus [gastos reservados][gastosreservados].
 
 
 
-
-[gastos_reservados] : https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit?usp=drive_web
+[gastosreservados]: https://docs.google.com/a/votainteligente.cl/file/d/0B16DSLubVGdHdjU3MFpobU9hRjg/edit
