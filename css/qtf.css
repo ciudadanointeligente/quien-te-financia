@@ -498,6 +498,17 @@ footer span {
 	margin-top: 20px;
 }
 
+/*Desplegable*/
+
+.fancybox-inner {
+	overflow: hidden;
+	max-width: 850px;
+}
+
+.fancybox-skin {
+	max-width: 850px;
+}
+
 /*Media queries*/
 
 @media screen and (max-width: 1024px) {
