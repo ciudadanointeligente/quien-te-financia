@@ -1,7 +1,6 @@
 ---
 layout: candidato
-published: false
-published: false
+published: true
 
 title: Galvarino Sazo
 
