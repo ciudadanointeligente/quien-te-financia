@@ -7,7 +7,56 @@ title: "Prensa"
 
 Estas son algunas de las apariciones en prensa vinculadas al financiamiento de la política chilena.
 
+
+## CNN Chile
+*8 de Noviembre de 2013*
+
+![Polémica en torno a la transparencia](/images/prensa/CNNChile.jpg)
+
+[ver original](http://cnnchile.com/noticia/2013/11/08/la-polemica-en-torno-a-la-transparencia-en-el-financiamiento-de-las-campanas-presidenciales)
+
+No todos los candidatos declararon el origen de los recursos de sus campañas en el sitio QuienTeFinancia.cl
+
+## 24 Horas
+*8 de Noviembre de 2013*
+
+![Candidatos revelan cómo financian campañas](/images/prensa/24Horas.jpg)
+
+[ver original](http://www.24horas.cl/politica/decision2013/candidatos-revelan-como-financian-sus-campanas-politicas-926007)
+
+La Fundación Ciudadano Inteligente lanzó la aplicación "Quién te financia", donde consultan a los abanderados el detalle de sus gastos. Revisa quiénes han respondido y qué dijeron.
+
 ## La Segunda
+*8 de Noviembre de 2013*
+
+![Sólo 4 candidatos han transparentado](/images/prensa/La_Segunda2.jpg)
+
+[ver original](http://www.lasegunda.com/Noticias/Politica/2013/11/891329/Quien-financia-a-los-presidenciales-Solo-cuatro-candidatos-han-transparentado-sus-fondos)
+
+Parisi obtuvo 27 millones de pesos por la venta de su Porsche. ME-O recibió un crédito bancario por más de 250 millones, Claude promovió la campaña "Una Luca por Chile" de la que recolectó 6 millones y Ricardo Israel explicó que su candidatura se sustenta gracias a un anticipo por parte del Servel y un crédito bancario.
+
+## Diario Uchile
+*8 de Noviembre de 2013*
+
+![Campaña busca aclarar origen de financiamiento electoral](/images/prensa/Uchile.jpg)
+
+[ver original](http://radio.uchile.cl/2013/11/08/campana-busca-aclarar-origen-de-dineros-electorales)
+
+Mediante una intervención urbana la Fundación Ciudadano Inteligente busca promover la transparencia de los fondos electorales.
+
+
+## El Mostrador
+*7 de Noviembre de 2013*
+
+![Ciudadano Inteligente despliega ofensiva contra secretismo](/images/prensa/El_Mostrador.jpg)
+
+[ver original](http://www.elmostrador.cl/pais/2013/11/07/ciudadano-inteligente-despliega-ofensiva-contra-el-secretismo-que-rodea-el-financiamiento-electoral/)
+
+Una intervención pública donde se instalará un “ciclón millonario” y un video que fue subido a las redes sociales llamando a “desenmascarar a los encapuchados” que costean las campañas, son partes de las iniciativas de la Fundación, que busca tansparentar "la relación entre el dinero y la política".
+
+
+
+## CIPER
 *7 de Noviembre de 2013*
 
 ![Empresas que financian la política](/images/prensa/CIPER.jpg)
