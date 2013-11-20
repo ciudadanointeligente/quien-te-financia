@@ -5,7 +5,6 @@ title: Marcel Claude
 
 categories: 
 - presidencial
-- whitelist
 
 featured-image: ../../images/post/claude.png
 

@@ -5,7 +5,6 @@ title: Alfredo Sfeir
 
 categories: 
 - presidencial
-- blacklist
 
 featured-image: ../../images/post/sfeir.png
 
