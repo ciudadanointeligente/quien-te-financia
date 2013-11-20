@@ -7,7 +7,7 @@ categories:
 - presidencial
 - blacklist
 
-featured-image: ../../images/post/bachelet.png
+featured-image: ../../images/post/bachelet2.png
 
 gender: f
 
