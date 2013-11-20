@@ -205,6 +205,10 @@ body.body-qtf .starred {
 	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
 }
 
+.content h1.titleLine{
+	font-size: 60px;
+}
+
 .titleLine{
 	width: 70%;
 	margin: 0 auto;

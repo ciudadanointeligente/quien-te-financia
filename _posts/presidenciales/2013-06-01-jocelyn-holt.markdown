@@ -5,7 +5,6 @@ title: Tomás Jocelyn-Holt
 
 categories: 
 - presidencial
-- blacklist
 
 featured-image: ../../images/post/holt.png
 
