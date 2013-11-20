@@ -158,6 +158,10 @@ body.body-qtf .starred {
 
 /* home candidates' list */
 
+.content.presidenciales .candidatesList li {
+	width: 460px;
+}
+
 .content .candidatesList li {
 	list-style: none;
 	padding: 5px 7px;
@@ -307,6 +311,14 @@ small.actionQTF, .actionQTF{
 #discovery{display: none;}
 
 .noResponseBand, .soonBand{position: relative;}
+
+.presidenciales .noResponseBand:after{
+	background: url(../images/no-responde-grande.png) no-repeat transparent;
+	left: -8px;
+	height: 305px;
+	width: 110%;
+}
+
 .noResponseBand:after{
 	content: '';
 	display: block;
@@ -535,6 +547,23 @@ footer span {
 
 	.petition h2 a {
 		font-size: 34px;
+	}
+
+	.content.presidenciales .candidatesList li {
+		width: 230px;
+	}
+
+	.presidenciales .noResponseBand:after {
+		background: url(../images/no-responde-mediano.png) no-repeat transparent;
+		left: -1px;
+	}
+
+	.content h1.titleLine {
+		font-size: 36px;
+	}
+
+	.content.presidenciales .ficha img {
+		width: 95%;
 	}
 
 }
