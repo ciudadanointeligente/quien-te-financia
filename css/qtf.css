@@ -413,6 +413,9 @@ td, th {
 
 .twitter-share-button {
 	margin-top: 8px;
+}
+
+.candidatesList .twitter-share-button {
 	margin-bottom: -5px;
 }
 
