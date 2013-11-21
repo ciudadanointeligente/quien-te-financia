@@ -23,8 +23,8 @@ title: "Quien te financia"
 
   <div class="manAbove"> </div>
   <div class="theBlackBox">
-    <h1 class="titleLine">Aún no sabemos quien financia al próximo Presidente de Chile</h1>
-    <p>¿Cuánto han gastado? ¿De dónde viene el dinero de sus campañas? ¿Por qué no hay querido transparentar?</p>
+    <h1 class="titleLine">Aún no sabemos quién financia al próximo Presidente de Chile</h1>
+    <p>¿Cuánto han gastado? ¿De dónde viene el dinero de sus campañas? ¿Por qué no han querido transparentar?</p>
   <ul class="candidatesList">
    
       {% for post in site.posts %}
@@ -59,45 +59,6 @@ title: "Quien te financia"
 {% include petition.html %}
 
 {% if (site.categories.senadores or site.categories.diputados) %}
-   
-
-
-<section class="content home parlamentarios">
-
-  <div class="manAbove"> </div>
-  <div class="theBlackBox">
-    <h2 class="titleLine"> Estos son los parlamentarios que están transparentando la política chilena</h2>
-    
-  <ul class="candidatesList">
-   
-      {% for post in site.posts %}
-        {% if post.categories contains 'blacklist' and (post.categories contains 'diputados' or post.categories contains 'senadores')%}
-            <li>
-              {% include ficha_home.html %}
-            </li> 
-           
-        {% endif %}
-      {% endfor %}
-    
-    {% for post in site.posts %}
-      {% if post.categories contains 'whitelist' and (post.categories contains 'diputados' or post.categories contains 'senadores')%}
-          <li>
-           {% include ficha_home.html %}
-          </li>
-      {% endif %}
-    {% endfor %}
-
-    {% for post in site.posts %}
-      {% if post.categories contains 'soon' and (post.categories contains 'diputados' or post.categories contains 'senadores')%}
-          <li>
-           {% include ficha_home.html %}
-          </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  </ul>
-</div>
-</section>
 
 {% endif %}
 

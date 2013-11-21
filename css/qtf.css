@@ -413,6 +413,31 @@ td, th {
 
 .twitter-share-button {
 	margin-top: 8px;
+	margin-bottom: -5px;
+}
+
+a.mailto {
+	padding: 2px 5px;
+	background: #E9E9E9;
+	color: #000;
+	font-size: 12px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+a.mailto:hover {
+	background: #EF4036;
+	color: #fff;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
 }
 
 /*Ficha candidatos*/

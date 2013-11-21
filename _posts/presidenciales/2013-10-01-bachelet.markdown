@@ -12,6 +12,7 @@ featured-image: ../../images/post/bachelet2.png
 gender: f
 
 c_twitter: comandomichelle
+public-email: info@michellebachelet.cl
 
 extra_info_url: http://www.votainteligente.cl/election/presidencial/michelle-bachelet
 ---
