@@ -13,6 +13,7 @@ gender: f
 
 c_twitter: comandomichelle
 public-email: info@michellebachelet.cl
+facebook: MichelleBacheletPresidenta
 
 extra_info_url: http://www.votainteligente.cl/election/presidencial/michelle-bachelet
 ---

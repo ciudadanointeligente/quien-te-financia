@@ -210,7 +210,7 @@ body.body-qtf .starred {
 }
 
 .content h1.titleLine{
-	font-size: 60px;
+	font-size: 51px;
 }
 
 .titleLine{
@@ -489,6 +489,7 @@ top: -6px;
 /* IE6/7 support */
 .clearfix {
     *zoom: 1;
+    margin: 10px 0px;
 }
 
 /*Link vota*/

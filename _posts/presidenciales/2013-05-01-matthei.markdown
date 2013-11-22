@@ -13,6 +13,7 @@ gender: f
 
 c_twitter: Evelyn_2014
 public-email: 
+facebook: evelynmatthei.2014
 
 extra_info_url: http://www.votainteligente.cl/election/presidencial/evelyn-matthei
 
