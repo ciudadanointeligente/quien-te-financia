@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>{{ site.name }}</title>
   <meta name="author" content="{{ site.author }}" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="keywords" content="{{ site.etiquetas }}" >
-<meta property="og:title" content="Quien te financia" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://quientefinancia.cl/" />
-<meta property="og:image" content="http://quientefinancia.cl/images/icono-qtf.png" />
-<meta property="og:description" content="En un mes de campaña electoral los candidatos gastarán miles de millones. ¿De dónde viene esta plata? La ley ENCAPUCHA a los financistas. Queremos saber sus nombres y apellidos." />
+  <meta property="og:title" content="Quien te financia" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://quientefinancia.cl/" />
+  <meta property="og:image" content="http://quientefinancia.cl/images/icono-qtf.png" />
+  <meta property="og:description" content="En un mes de campaña electoral los candidatos gastarán miles de millones. ¿De dónde viene esta plata? La ley ENCAPUCHA a los financistas. Queremos saber sus nombres y apellidos." />
 
   <link rel="stylesheet" href="/css/qtf.css" type="text/css" />
   <link rel="stylesheet" href="/css/base.css" type="text/css"/>
@@ -22,8 +22,8 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js"></script>
   <script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
-            <script src="/js/jquery.countdown.js"></script>
-            <script src="/js/script.js"></script>
+  <script src="/js/jquery.countdown.js"></script>
+  <script src="/js/script.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
@@ -36,21 +36,18 @@
         {% include menu.html %}
       </nav>
     </div>
-  </div> 
-  <div class="bulb_container">
+  </div>
+  <!--   <div class="bulb_container">
     <div class="fci-ampolleta-dark">
-      <!-- debemos mejorar esto, los iframe son obsoletos!! -->
       <iframe src="http://ciudadanointeligente.org/assets/bulb_dark.html?wmode=transparent?wmode=transparent" width="120" height="220" frameborder="0"></iframe>
     </div>
-  </div> 
+  </div>  -->
   <div class="centerCont">
     <section class="sidebar">
       <section class="meta">
 
         <a href="https://twitter.com/share" class="twitter-share-button" data-text="Aún no sabemos quién financia la campaña de la próxima Presidenta. #QuienTeFinancia?" data-via="ciudadanoi" data-lang="es" >Twittear</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-
 
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -72,21 +69,22 @@
         </div>
     </footer>
   <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-41822715-1', 'quientefinancia.cl');
-    ga('send', 'pageview');
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', "{{ site.analytics }}", "{{ site.basedomain }}");
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.email-prensa').attr('href','mailto:'+'info'+'@'+'ciudadanointeligente.org?'+'Subject=Prensa%20votainteligente');
+    })
   </script>
 
-        <script>
-         $(document).ready(function(){
-            $('.email-prensa').attr('href','mailto:'+'info'+'@'+'ciudadanointeligente.org?'+'Subject=Prensa%20votainteligente');
-         })
-        </script>
-  
 </body>
 </html>
