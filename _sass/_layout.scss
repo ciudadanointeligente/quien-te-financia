@@ -3,12 +3,25 @@
  */
  html body{
 	background: #1B1B1B;
-	color: #ABB3BB;
+	color: #ffffff;
 	margin: 0;
-	-webkit-font-smoothing: antialiased;
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+ }
+
+body h1{
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
 	font-weight: 400;
+	font-size: 51px;
+	color: #1B1B1B;
+}
+
+ p{
+	color: #45515E;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	line-height: 26px;
+
  }
 
 .site-header {
@@ -202,6 +215,7 @@ footer a img:hover {
 /**
  * Page content
  */
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -277,18 +291,26 @@ footer a img:hover {
 }
 /** custom styles QTF V2.0 **/
 
+.petition{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .titleLine {
-	width: 70%;
-	margin: 50px auto 70px;
+	width: 80%;
+	margin: 40px auto 70px;
 	text-align: center;
 	padding-top: 10px;
 }
 
-.titleLine h3{
-	font-size: 20px;
-	line-height: 26px;
-	margin: 0;
-	padding:0;
+.titleLine h1{
+	color: #EF4036;
+}
+
+.titleLine h2{
+	font-size: 24px;
+	font-weight: 400;
 }
 
 .caption h3{
@@ -300,30 +322,64 @@ footer a img:hover {
 }
 
 .reform{
-	text-align: center;
-	margin: 70px auto;
+	margin: 0 auto 50px;
+	padding: 10px 40px 40px;
+	max-width: 900px;
+	background: #fff;
+	border: 1px solid #E5E5E5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
+
+.reform h2{
+	font-weight: 400;
+	color: #1B1B1B;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 400;
+	margin: 0;
+	padding:0;
+}
+
+/** Components **/
+
+.inside{
+	color: #fff;
+
+}
+.chart{
+	margin: 50px auto 0;
+	text-align: center;
+	width: 100%;
+}
+
 .people{
 	margin: 30px 0;
 }
+
 .firm{
-	margin: 90px auto;
+	margin: 90px auto 0;
 	max-width: 800px;
 }
 
 .firm h3{
 	font-size: 18px;
-	color: #fff;
+	font-weight: bold;
+	color: #333;
 	margin: 0;
 }
+
 .banner {
-	background: #2BAF2B;
+	background: #EF4036;
 	border-radius: 6px;
 	text-align: center;
 	padding: 10px 150px 40px;
 	margin: 0 0 50px 0;
 }
-
+.banner h1{
+	color: #ffffff
+}
 .banner p{
 	color: #fff;
 }
@@ -368,18 +424,8 @@ footer a img:hover {
 	width: 100%;
 }
 
-body h1{
-	color: #fff;
-	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 51px;
-}
-span.buttontwitter{
-	margin-left: 20px;
-}
-
 .embed-googledocs{
-	margin: 0 auto;
+	margin: 50px auto;
 	max-width: 800px;
 }
 
@@ -387,27 +433,53 @@ span.buttontwitter{
 	margin: 0 auto;
 }
 
+.fullwidth{
+	background: #F8F8F8;
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.inside{
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+.grid{
+	padding-bottom: 50px;
+} 
+
 /* list styles for reform #2 */
 
-#list2{
-	margin: 40px auto;
-	max-width: 800px;
-	padding: 10px;
+ol.simple-list {
+    list-style-type: none;
+    list-style-type: none;
+    margin: 50px 0;
+    margin-left: 3em;
+    padding: 0;
+    counter-reset: li-counter;
 }
-#list2 ol { 
-	font-style:italic; 
-	font-family:Georgia, Times, serif; 
-	font-size:24px; 
+ol.simple-list > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 1.5em;
+    min-height: 3em;
+    border-left: 1px solid #CCCCCC;
+}
+ol.simple-list > li:before {
+    position: absolute;
+    left: -58px;
+    width: 0.8em;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+    content: counter(li-counter);
+    counter-increment: li-counter;
 }
 
-#list2 ol li p { 
-	padding:8px; 
-	border-left: 1px solid #999; 
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	font-size: 16px;
-}
-	
 /** custom layout for five columns **/
 
 .col-xs-15,
@@ -453,4 +525,54 @@ span.buttontwitter{
 		margin: 0 0 50px 0;
 	}
 }
+
+/** queries for mobile **/
+@media (max-width: 428px) {
+	.thumbnail{
+	border: none !important;
+	float: left;
+	width: 100%;
+}
+
+.thumbnail>img, .thumbnail a>img{
+	width: 30%;
+	float: left;
+}
+
+.thumbnail .caption {
+	padding: 9px;
+	color: #333;
+	float: left;
+}
+
+}
+
+@media (max-width: 768px) {
+	.thumbnail{
+	border: none !important;
+	float: left;
+	width: 100%;
+}
+
+.thumbnail>img, .thumbnail a>img{
+	width: 30%;
+	float: left;
+}
+
+.thumbnail .caption {
+	padding: 9px;
+	color: #333;
+	float: left;
+}
+
+.caption h3 {
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+}
+
 

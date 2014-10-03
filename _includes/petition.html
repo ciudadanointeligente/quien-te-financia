@@ -1,0 +1,13 @@
+<div class="container">
+
+</div>
+
+<script>
+$(document).ready(function(){
+var url_consulta = 'https://api.change.org/v1/petitions/1332055?api_key=d20fe3393e99e0b669397f42987c0bd4fe928c9b52682b6f38183f571d7f054c&petition_url=http://www.change.org/es-LA/peticiones/qui%C3%A9n-te-financia-2';
+$.getJSON( url_consulta + '&callback=?', function(data) {
+// do my stuff
+$('.nro-peticiones').html('Llevamos ' + data.signature_count + ' firmas');
+});
+})
+</script>
