@@ -322,7 +322,7 @@ footer a img:hover {
 }
 
 .reform{
-	margin: 0 auto 50px;
+	margin: 0 auto 10px;
 	padding: 10px 40px 40px;
 	max-width: 900px;
 	background: #fff;
@@ -388,10 +388,28 @@ footer a img:hover {
 	color: #fff;
 }
 
-.btn{
-	margin: 0 auto;
-	width: 100%;
+.bt{
+	margin: 0 auto 40px;
+	width: 70%;
 	text-align: center;
+}
+
+body .btn-primary{
+	border-radius: 100px;
+	padding: 10px 60px;
+	background: #EF4036;
+	border: none ;
+	text-decoration: none ;
+}
+
+.btn-primary a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-primary a:hover{
+	color: #fff;
+	text-decoration: none;
 }
 
 .bt-default{
@@ -399,10 +417,10 @@ footer a img:hover {
 	font-size: 15px;
 	line-height: 1.33;
 	border-radius: 100px;
-	color: #ABB3BB;
-	background: none;
+	color: #fff;
+	background: #EF4036;
 	border: 1px solid #EF4036;
-	margin: 20px 0;
+	margin: 50px 0;
 }
 
 .bt-default:hover{
@@ -414,6 +432,23 @@ footer a img:hover {
 	background: #EF4036;
 	border: 1px solid #EF4036;
 	margin: 20px 0;
+}
+
+.petition h2 a {
+background: #000;
+color: #fff;
+font-size: 50px;
+padding: 5px 15px;
+float: right;
+margin-top: 10px;
+text-decoration: none;
+}
+
+.nro-peticiones{
+	margin: 20px 0;
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .thumbnail{
