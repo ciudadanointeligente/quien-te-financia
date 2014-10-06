@@ -3,7 +3,6 @@
  */
  html body{
 	background: #1B1B1B;
-	color: #ffffff;
 	margin: 0;
 	font-weight: normal;
 	font-size: 15px;
@@ -22,6 +21,8 @@ h1{
  p{
 	color: #45515E;
 	line-height: 26px;
+	margin: 0;
+	padding: 0;
 
  }
 
@@ -32,6 +33,7 @@ h1{
  a:hover{
 	color: #F36C60;
  }
+
 
 .site-header {
     min-height: 95px;
@@ -302,8 +304,18 @@ footer a img:hover {
 
 .petition{
 	max-width: 800px;
-	margin: 0 auto;
+	margin: 0 auto 100px;
 	text-align: center;
+}
+
+.petition h2 a {
+	background: #000;
+	color: #fff;
+	font-size: 50px;
+	padding: 5px 15px;
+	float: right;
+	margin-top: 10px;
+	text-decoration: none;
 }
 
 .titleLine {
@@ -376,36 +388,29 @@ footer a img:hover {
 }
 
 .banner {
-	background: #EF4036;
-	border-radius: 6px;
+	background: #2BAF2B;
+	width: 100%;
+	height: auto;
 	text-align: center;
-	padding: 10px 150px 40px;
-	margin: 50px auto 0;
+	padding: 50px 0;
 }
-.banner h1{
-	color: #ffffff
+
+.info{
+	max-width: 900px;
+	margin: 0 auto;
 }
-.banner p{
+
+.info h1{
 	color: #fff;
 }
 
-.banner span {
+.info p{
 	color: #fff;
 }
-
-.petition h2 a {
-background: #000;
-color: #fff;
-font-size: 50px;
-padding: 5px 15px;
-float: right;
-margin-top: 10px;
-text-decoration: none;
-}
-
 
 .nro-peticiones{
 	margin: 20px 0;
+	color: #45515E;
 }
 
 .thumbnail{
@@ -428,8 +433,8 @@ text-decoration: none;
 .fullwidth{
 	background: #F8F8F8;
 	width: 100%;
-	margin: 0 auto;
-	padding: 50px 0;
+	margin: 0 auto ;
+	padding: 50px 0 0;
 }
 
 .inside{
@@ -443,14 +448,14 @@ text-decoration: none;
 } 
 
 p.twitter-share{
-	margin: 0 0 5px 0;
+	margin: 10px 0 5px 0;
 }
 /* -------------------- Buttons -------------------- */
 
 
 .btn-lg {
 	padding: 10px 35px;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 1.33;
 	border-radius: 100px;
 }
@@ -547,12 +552,20 @@ ol.simple-list > li:before {
 }
 
 @media (max-width: 768px) { 
-	.banner{
-		background: #EF4036;
-		border-radius: 6px;
+		
+	.banner {
+		background: #2BAF2B;
+		width: 100%;
+		height: auto;
 		text-align: center;
-		padding: 10px 10px;
+		padding: 50px 0;
 	}
+
+	.info{
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
 }
 
 /** queries for mobile **/
@@ -603,5 +616,62 @@ ol.simple-list > li:before {
 }
 
 }
+
+/** styles for pastures visualization **/
+img.chamber {
+	z-index: 2;
+	position: absolute;
+}
+span.positive {
+	width: 55px;
+	background-color: green;
+	height: 55px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 25px;
+}
+span.against {
+	width: 55px;
+	background-color: red;
+	height: 55px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 25px;
+}
+span.abstention {
+	width: 55px;
+	background-color: #5bc0de;
+	height: 55px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 25px;
+}
+span.ausent {
+	width: 55px;
+	background-color: #f0ad4e;
+	height: 55px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 25px;
+}
+span.paring {
+	width: 55px;
+	background-color: #428bca;
+	height: 55px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 25px;
+}
+
 
 
