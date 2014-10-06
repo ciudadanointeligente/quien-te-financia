@@ -29,6 +29,10 @@ h1{
 	color: #F36C60;
  }
 
+ a:hover{
+	color: #F36C60;
+ }
+
 .site-header {
     min-height: 95px;
     background: #000;
@@ -315,7 +319,6 @@ footer a img:hover {
 
 .titleLine h2{
 	font-size: 24px;
-	font-weight: 400;
 }
 
 .caption h3{
@@ -338,11 +341,8 @@ footer a img:hover {
 }
 
 .reform h2{
-	font-weight: 400;
 	color: #1B1B1B;
 	font-size: 24px;
-	line-height: 26px;
-	font-weight: 400;
 	margin: 0;
 	padding:0;
 }
@@ -442,6 +442,9 @@ text-decoration: none;
 	padding-bottom: 50px;
 } 
 
+p.twitter-share{
+	margin: 0 0 5px 0;
+}
 /* -------------------- Buttons -------------------- */
 
 
@@ -464,7 +467,7 @@ text-decoration: none;
 	background: #2BAF2B;
 }
 
-.btn-default a:hover{
+.contact a:hover{
 	text-decoration: none;
 }
 
@@ -545,11 +548,10 @@ ol.simple-list > li:before {
 
 @media (max-width: 768px) { 
 	.banner{
-		background: #2BAF2B;
+		background: #EF4036;
 		border-radius: 6px;
 		text-align: center;
 		padding: 10px 10px;
-		margin: 0 0 50px 0;
 	}
 }
 
