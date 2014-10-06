@@ -6,9 +6,13 @@
 	color: #ffffff;
 	margin: 0;
 	font-weight: normal;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+
+
  }
 
-body h1{
+h1{
 	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 51px;
@@ -17,11 +21,12 @@ body h1{
 
  p{
 	color: #45515E;
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
 	line-height: 26px;
 
+ }
+
+ a{
+	color: #F36C60;
  }
 
 .site-header {
@@ -322,7 +327,7 @@ footer a img:hover {
 }
 
 .reform{
-	margin: 0 auto 10px;
+	margin: 0 auto 40px;
 	padding: 10px 40px 40px;
 	max-width: 900px;
 	background: #fff;
@@ -375,7 +380,7 @@ footer a img:hover {
 	border-radius: 6px;
 	text-align: center;
 	padding: 10px 150px 40px;
-	margin: 0 0 50px 0;
+	margin: 50px auto 0;
 }
 .banner h1{
 	color: #ffffff
@@ -388,52 +393,6 @@ footer a img:hover {
 	color: #fff;
 }
 
-.bt{
-	margin: 0 auto 40px;
-	width: 70%;
-	text-align: center;
-}
-
-body .btn-primary{
-	border-radius: 100px;
-	padding: 10px 60px;
-	background: #EF4036;
-	border: none ;
-	text-decoration: none ;
-}
-
-.btn-primary a{
-	color: #fff;
-	text-decoration: none;
-}
-
-.btn-primary a:hover{
-	color: #fff;
-	text-decoration: none;
-}
-
-.bt-default{
-	padding: 10px 35px;
-	font-size: 15px;
-	line-height: 1.33;
-	border-radius: 100px;
-	color: #fff;
-	background: #EF4036;
-	border: 1px solid #EF4036;
-	margin: 50px 0;
-}
-
-.bt-default:hover{
-	padding: 10px 35px;
-	font-size: 15px;
-	line-height: 1.33;
-	border-radius: 100px;
-	color: #ffffff;
-	background: #EF4036;
-	border: 1px solid #EF4036;
-	margin: 20px 0;
-}
-
 .petition h2 a {
 background: #000;
 color: #fff;
@@ -444,11 +403,9 @@ margin-top: 10px;
 text-decoration: none;
 }
 
+
 .nro-peticiones{
 	margin: 20px 0;
-	color: #333;
-	font-size: 24px;
-	font-weight: bold;
 }
 
 .thumbnail{
@@ -484,6 +441,41 @@ text-decoration: none;
 .grid{
 	padding-bottom: 50px;
 } 
+
+/* -------------------- Buttons -------------------- */
+
+
+.btn-lg {
+	padding: 10px 35px;
+	font-size: 15px;
+	line-height: 1.33;
+	border-radius: 100px;
+}
+
+.btn-default {
+	color: #ffffff;
+	background: #EF4036;
+	border: none;
+}
+
+.btn-default:hover {
+	color: #ffffff;
+	border-color: none;
+	background: #2BAF2B;
+}
+
+.btn-default a:hover{
+	text-decoration: none;
+}
+
+.btn-default a:visited{
+	color: #ffffff;
+}
+
+.contact{
+	margin: 10px auto 0;
+}
+
 
 /* list styles for reform #2 */
 
