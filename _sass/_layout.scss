@@ -304,8 +304,9 @@ footer a img:hover {
 
 .petition{
 	max-width: 800px;
-	margin: 0 auto 100px;
+	margin: 0 auto;
 	text-align: center;
+	background: #F8F8F8;
 }
 
 .petition h2 a {
@@ -342,7 +343,7 @@ footer a img:hover {
 }
 
 .reform{
-	margin: 0 auto 40px;
+	margin: 0 auto;
 	padding: 10px 40px 40px;
 	max-width: 900px;
 	background: #fff;
@@ -434,13 +435,21 @@ footer a img:hover {
 	background: #F8F8F8;
 	width: 100%;
 	margin: 0 auto ;
-	padding: 50px 0 0;
+	padding: 50px 0;
 }
 
 .inside{
 	max-width: 960px;
 	margin: 0 auto;
+}
 
+.follow{
+	margin: 0 0 20px 0;
+}
+
+.embed{
+	margin: 40px auto;
+	max-width: 800px;
 }
 
 .grid{
@@ -449,6 +458,10 @@ footer a img:hover {
 
 p.twitter-share{
 	margin: 10px 0 5px 0;
+}
+
+.against-vote{
+	margin: 10px;
 }
 /* -------------------- Buttons -------------------- */
 
@@ -470,6 +483,10 @@ p.twitter-share{
 	color: #ffffff;
 	border-color: none;
 	background: #2BAF2B;
+}
+
+.contact a{
+	color: #ffffff;
 }
 
 .contact a:hover{
@@ -618,59 +635,74 @@ ol.simple-list > li:before {
 }
 
 /** styles for pastures visualization **/
+.postures{
+	margin: 50px auto;
+
+}
+
+.postures h2{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+
+.progress{
+	margin: 40px 0 0 0;
+}
 img.chamber {
 	z-index: 2;
 	position: absolute;
 }
 span.positive {
-	width: 55px;
+	width: 60px;
 	background-color: green;
-	height: 55px;
+	height: 60px;
 	z-index: 3;
 	display: block;
 	position: relative;
 	opacity: 0.3;
-	border-radius: 25px;
+	border-radius: 50px;
 }
 span.against {
-	width: 55px;
+	width: 60px;
 	background-color: red;
-	height: 55px;
+	height: 60px;
 	z-index: 3;
 	display: block;
 	position: relative;
 	opacity: 0.3;
-	border-radius: 25px;
+	border-radius: 50px;
 }
 span.abstention {
-	width: 55px;
-	background-color: #5bc0de;
-	height: 55px;
+	width: 60px;
+	background-color: #5BC0DE;
+	height: 60px;
 	z-index: 3;
 	display: block;
 	position: relative;
-	opacity: 0.3;
-	border-radius: 25px;
+	opacity: 0.6;
+	border-radius: 50px;
 }
 span.ausent {
-	width: 55px;
+	width: 60px;
 	background-color: #f0ad4e;
-	height: 55px;
+	height: 60px;
 	z-index: 3;
 	display: block;
 	position: relative;
 	opacity: 0.3;
-	border-radius: 25px;
+	border-radius: 50px;
 }
 span.paring {
-	width: 55px;
-	background-color: #428bca;
-	height: 55px;
+	width: 60px;
+	background-color: #F0AD4E;
+	height: 60px;
 	z-index: 3;
 	display: block;
 	position: relative;
-	opacity: 0.3;
-	border-radius: 25px;
+	opacity: 0.6;
+	border-radius: 50px;
 }
 
 
