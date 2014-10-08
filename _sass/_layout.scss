@@ -640,10 +640,21 @@ ol.simple-list > li:before {
 
 }
 
+.chamber-2{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .postures h2{
 	font-size: 24px;
 	line-height: 30px;
 	margin: 0 auto 40px;
+	text-align: center;
+}
+
+.postures p{
+	color: #fff;
+	margin: 10px 0 0 0 ;
 	text-align: center;
 }
 
