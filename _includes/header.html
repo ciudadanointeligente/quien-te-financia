@@ -2,8 +2,11 @@
 
   <div class="container">
 	<a class="siteLogo" href="/index.html" title="Quién te financia?">Quién te financia?</a>
+	<nav class="mainNav">
+        {% include menu.html %}
+      </nav>
     <!--<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>-->
-	    <nav class="site-nav">
+	    <!--<nav class="site-nav">
 	      <div class="trigger">
 	        {% for page in site.pages %}
 	          {% if page.title %}
@@ -11,7 +14,7 @@
 	          {% endif %}
 	        {% endfor %}
 	      </div>
-	    </nav>
+	    </nav>-->
   </div>
 
 </header>
