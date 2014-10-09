@@ -469,6 +469,21 @@ p.twitter-share{
 .against-vote{
 	margin: 10px;
 }
+
+.share-img{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.item{
+	margin-bottom: 20px;
+}
+
+.navbar-default {
+	background-color: none !important;
+	border-color: none !important;
+}
+
 /* -------------------- Buttons -------------------- */
 
 
@@ -499,7 +514,7 @@ p.twitter-share{
 	text-decoration: none;
 }
 
-.btn-default a:visited{
+.petition a:visited{
 	color: #ffffff;
 }
 
