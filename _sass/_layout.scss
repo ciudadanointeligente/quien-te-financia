@@ -27,12 +27,17 @@ h1{
  }
 
  a{
-	color: #F36C60;
+	color: #EF4036;
  }
 
  a:hover{
-	color: #F36C60;
+	color: #EF4036;
  }
+
+  a:visited{
+	color: #EF4036;
+ }
+
 
 
 .site-header {
@@ -479,9 +484,24 @@ p.twitter-share{
 	margin-bottom: 20px;
 }
 
-.navbar-default {
-	background-color: none !important;
-	border-color: none !important;
+.mainNav {
+	float: right;
+	list-style: none;
+	padding: 15px 0;
+}
+
+.mainNav ul {
+	float: right;
+	list-style: none;
+	position: relative;
+	margin: 10px 0 0 0;
+	-webkit-padding-start: 0px;
+}
+
+.mainNav ul li {
+	float: left;
+	margin-left: 20px;
+	list-style: none;
 }
 
 /* -------------------- Buttons -------------------- */
