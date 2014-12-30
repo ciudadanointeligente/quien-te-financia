@@ -561,6 +561,10 @@ a#mycustomtwitterbutton {
 	margin-right: 3px;
 }
 
+a#mycustomtwitterbutton:hover {
+	background: #449CDF;
+}
+
 a#mycustommailbutton {
 	padding: 20px;
 	background: #8E8E8E;
@@ -569,6 +573,10 @@ a#mycustommailbutton {
 	border-radius: 6px;
 	border-bottom: 2px solid #676767;
 	margin-left: 3px;
+}
+
+a#mycustommailbutton:hover {
+	background: #737373;
 }
 
 
@@ -786,5 +794,39 @@ span.paring {
 	border-radius: 50px;
 }
 
+/*BANNER HAY ACUERDO*/
 
+.fullwidth.banner-hayacuerdo {
+	background: #EB6956;
+	padding: 0;
+}
+
+.txt-banner-hayacuerdo {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	background: #F8F8F8;
+	padding: 20px 110px;
+	position: relative;
+}
+
+.txt-banner-hayacuerdo a {
+	font-size: 32px;
+	color: #000;
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+}
+
+.txt-banner-hayacuerdo:before {
+	content: url(http://hayacuerdo.ciudadanointeligente.org/img/noacuerdoizq.svg);
+	position: absolute;
+	top: 20px;
+	left: 4px;
+}
+
+.txt-banner-hayacuerdo:after {
+	content: url(http://hayacuerdo.ciudadanointeligente.org/img/noacuerdoder.svg);
+	position: absolute;
+	top: 20px;
+	right: 4px;
+}
 
