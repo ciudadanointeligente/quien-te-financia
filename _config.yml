@@ -2,8 +2,7 @@
 title: Quien te financia
 email: info@ciudadanointeligente.org
 description: Hasta que no sepamos quién los financia nos gobierna un poder invisible.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://quientefinancia.cl" # the base hostname & protocol for your site
+baseurl: "http://quientefinancia.cl" # the subpath of your site, e.g. /blog/
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
 analytics: 'UA-41822715-1'

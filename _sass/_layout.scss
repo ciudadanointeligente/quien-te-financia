@@ -18,6 +18,10 @@ h1{
 	color: #1B1B1B;
 }
 
+h2 {
+	font-family: "Yanone Kaffeesatz";
+}
+
  p{
 	color: #45515E;
 	line-height: 26px;
@@ -321,6 +325,10 @@ footer a img:hover {
 	background: #F8F8F8;
 }
 
+.petition h2 {
+	color: #000;
+}
+
 .petition h2 a {
 	background: #000;
 	color: #fff;
@@ -343,7 +351,6 @@ footer a img:hover {
 
 .titleLine h2{
 	font-size: 32px;
-	font-family: "Yanone Kaffeesatz";
 	color: #909090;
 }
 
@@ -542,6 +549,26 @@ p.twitter-share{
 
 .contact{
 	margin: 10px auto 0;
+}
+
+a#mycustomtwitterbutton {
+	padding: 10px;
+	background: #55acee;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	border-bottom: 2px solid #1E82CF;
+	margin-right: 3px;
+}
+
+a#mycustommailbutton {
+	padding: 10px;
+	background: #8E8E8E;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	border-bottom: 2px solid #676767;
+	margin-left: 3px;
 }
 
 
