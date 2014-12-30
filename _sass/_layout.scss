@@ -438,6 +438,11 @@ footer a img:hover {
 	border: none !important;
 }
 
+.thumbnail p {
+	margin-bottom: 12px;
+	line-height: 22px;
+}
+
 .thumbnail>img, .thumbnail a>img{
 	width: 100%;
 }
@@ -552,13 +557,13 @@ p.twitter-share{
 }
 
 a#mycustomtwitterbutton {
-	padding: 20px;
+	padding: 5px;
 	background: #55acee;
 	color: #fff;
 	text-decoration: none;
-	border-radius: 6px;
-	border-bottom: 2px solid #1E82CF;
-	margin-right: 3px;
+	border-radius: 3px;
+	margin-right: 1px;
+	font-size: 12px;
 }
 
 a#mycustomtwitterbutton:hover {
@@ -566,13 +571,13 @@ a#mycustomtwitterbutton:hover {
 }
 
 a#mycustommailbutton {
-	padding: 20px;
+	font-size: 12px;
+	padding: 5px;
 	background: #8E8E8E;
 	color: #fff;
 	text-decoration: none;
-	border-radius: 6px;
-	border-bottom: 2px solid #676767;
-	margin-left: 3px;
+	border-radius: 3px;
+	margin-left: 1px;
 }
 
 a#mycustommailbutton:hover {
