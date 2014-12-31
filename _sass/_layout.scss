@@ -582,7 +582,7 @@ a#mycustomtwitterbutton {
 }
 
 a#mycustomtwitterbutton:hover {
-	background: #449CDF;
+	background: #328ACD;
 }
 
 a#mycustommailbutton {
@@ -595,13 +595,28 @@ a#mycustommailbutton {
 	margin-left: 1px;
 }
 
+.destacado a#mycustomtwitterbutton {
+	background: #fff;
+	color: #55acee;
+}
+
 .destacado a#mycustommailbutton {
 	background: #fff;
 	color: #EF4036;
 }
 
+.destacado a#mycustomtwitterbutton:hover {
+	color: #328ACD;
+	background: #CCE7F7;
+}
+
+.destacado a#mycustommailbutton:hover {
+	color: #D52D24;
+	background: #FFD9D9;
+}
+
 a#mycustommailbutton:hover {
-	background: #737373;
+	background: #D52D24;
 }
 
 
@@ -828,7 +843,7 @@ span.paring {
 
 .txt-banner-hayacuerdo {
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 30px auto;
 	text-align: center;
 	background: #1B1B1B;
 	padding: 20px 110px;
@@ -842,14 +857,14 @@ span.paring {
 }
 
 .txt-banner-hayacuerdo:before {
-	content: url(http://quientefinancia.cl/img/noacuerdoizq.svg);
+	content: url(../img/noacuerdoizq.svg);
 	position: absolute;
 	top: 20px;
 	left: 4px;
 }
 
 .txt-banner-hayacuerdo:after {
-	content: url(http://quientefinancia.cl/img/noacuerdoder.svg);
+	content: url(../img/noacuerdoder.svg);
 	position: absolute;
 	top: 20px;
 	right: 4px;
