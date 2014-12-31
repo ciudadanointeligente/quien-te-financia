@@ -7,8 +7,9 @@
 	font-weight: normal;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-
-
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
  }
 
 h1{
@@ -434,6 +435,8 @@ footer a img:hover {
 	color: #45515E;
 }
 
+/*PERSONAS*/
+
 .thumbnail{
 	border: none !important;
 }
@@ -445,6 +448,18 @@ footer a img:hover {
 
 .thumbnail>img, .thumbnail a>img{
 	width: 100%;
+}
+
+.destacado .thumbnail {
+	background-color: #EF4036;
+}
+
+.destacado .thumbnail .caption {
+	color: #ffffff;
+}
+
+.destacado .thumbnail p {
+	color: #FFC4C4;
 }
 
 .embed-googledocs{
@@ -573,11 +588,16 @@ a#mycustomtwitterbutton:hover {
 a#mycustommailbutton {
 	font-size: 12px;
 	padding: 5px;
-	background: #8E8E8E;
+	background: #EF4036;
 	color: #fff;
 	text-decoration: none;
 	border-radius: 3px;
 	margin-left: 1px;
+}
+
+.destacado a#mycustommailbutton {
+	background: #fff;
+	color: #EF4036;
 }
 
 a#mycustommailbutton:hover {
@@ -802,7 +822,7 @@ span.paring {
 /*BANNER HAY ACUERDO*/
 
 .fullwidth.banner-hayacuerdo {
-	background: #EB6956;
+	background: #EF4036;
 	padding: 0;
 }
 
@@ -810,26 +830,26 @@ span.paring {
 	max-width: 900px;
 	margin: 0 auto;
 	text-align: center;
-	background: #F8F8F8;
+	background: #1B1B1B;
 	padding: 20px 110px;
 	position: relative;
 }
 
 .txt-banner-hayacuerdo a {
 	font-size: 32px;
-	color: #000;
+	color: #EF4036;
 	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
 }
 
 .txt-banner-hayacuerdo:before {
-	content: url(http://hayacuerdo.ciudadanointeligente.org/img/noacuerdoizq.svg);
+	content: url(http://quientefinancia.cl/img/noacuerdoizq.svg);
 	position: absolute;
 	top: 20px;
 	left: 4px;
 }
 
 .txt-banner-hayacuerdo:after {
-	content: url(http://hayacuerdo.ciudadanointeligente.org/img/noacuerdoder.svg);
+	content: url(http://quientefinancia.cl/img/noacuerdoder.svg);
 	position: absolute;
 	top: 20px;
 	right: 4px;
