@@ -2,8 +2,16 @@
 layout: default
 ---	
 
-      	{% include buttons.html %}
-      	{% include ask.html %}
-      	{% include banner.html %}
+{% include buttons.html %}
+{% include banner2.html %}
+<div class="container">
+  	<div class="row">
+  		<div class="col-md-8"></div>
+      	<div class="col-md-4">
+		      	{% include feed-twitter.html %}
+      	</div>
+  	</div>
+</div>
+{% include banner.html %}
       	
 
