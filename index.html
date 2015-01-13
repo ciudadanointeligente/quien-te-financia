@@ -6,12 +6,59 @@ layout: default
 {% include banner2.html %}
 <div class="container">
   	<div class="row">
-  		<div class="col-md-8"></div>
+  		<div class="col-md-8">
+  			<div id="data"></div>
+  		</div>
       	<div class="col-md-4">
 		      	{% include feed-twitter.html %}
       	</div>
   	</div>
 </div>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/tabletop.js"></script>
+<script type="text/javascript">
+	window.onload = function() { init() };
+
+	var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
+
+	function init() {
+	Tabletop.init( { key: public_spreadsheet_url,
+	                 callback: showInfo,
+	                 simpleSheet: true } )
+	}
+
+	function showInfo(data) {
+		var el_ul = document.createElement('ul');
+
+		data.forEach( function(key, value) {
+			
+			var el_li = document.createElement('li');
+				el_li.classList.add('list-unstyled')
+			var url = document.createElement('a');
+				url.setAttribute('href', key.source );
+				url.setAttribute('target', '_blank' );
+				url.classList.add('main_url')
+				url.appendChild( document.createTextNode( key.title ) );
+			var read_more = document.createElement('a');
+				read_more.setAttribute('href', key.source );
+				read_more.setAttribute('target', '_blank' );
+				read_more.classList.add('view_more')
+				read_more.appendChild( document.createTextNode( "[seguir leyendo]" ) );
+			var h3 = document.createElement('h3');
+				h3.appendChild( url )
+			var p = document.createElement('p')
+				p.appendChild( document.createTextNode(key.content) )
+			
+			el_li.appendChild(h3)
+			p.appendChild(read_more)
+			el_li.appendChild(p)
+			el_ul.appendChild(el_li)
+		})
+
+		document.getElementById('data').appendChild( el_ul );
+	}
+</script>
 {% include banner.html %}
       	
 
