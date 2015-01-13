@@ -50,7 +50,7 @@ h2 {
     background: #000;
     padding:10px;
 
-    // Positioning context for the mobile navigation icon
+    /* Positioning context for the mobile navigation icon*/
     position: relative;
 }
 
@@ -79,7 +79,7 @@ h2 {
         color: $text-color;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the first one
+        /*Gaps between nav items, but not on the first one*/
         &:not(:first-child) {
             margin-left: 20px;
         }
@@ -885,8 +885,15 @@ span.paring {
 
 .simple-puppet {
 	background: url(../img/simple-puppet.png) 0px -5px no-repeat;
-	padding: 110px 0px 0px 38px;
+	padding: 115px 0px 0px 43px;
 	height: 430px;
+	width: 185px;
+}
+
+.simple-puppet2 {
+	background: url(../img/simple-puppet2.png) 0px -5px no-repeat;
+	padding: 145px 0px 0px 43px;
+	height: 470px;
 	width: 180px;
 }
 
@@ -896,4 +903,3 @@ span.paring {
 	height: 515px;
 	width: 245px;
 }
-
