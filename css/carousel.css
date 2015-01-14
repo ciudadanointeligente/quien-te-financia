@@ -3,7 +3,7 @@
 
 .slideshow {
 	position: relative;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }
 
 .slides {
@@ -60,7 +60,7 @@
 
 .description {
 	width: 50%;
-	padding: 2em 4em;
+	padding: 2em 0em;
 	position: relative;
 	z-index: 1000;
 	opacity: 0;
@@ -377,7 +377,7 @@
 }
 
 .slideshow .strong {
-	background: #E33D34;
+	background: #01CAAB;
 	color: #FFFFFF;
 	border-radius: 3px;
 	padding: 0px 4px 1px;

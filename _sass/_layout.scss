@@ -39,15 +39,14 @@ h2 {
 	color: #EF4036;
  }
 
+a:visited{
+	color: #EF4036;
+ }
+
  a:hover{
-	color: #EF4036;
+  color: #FF5E54;
+  text-decoration: none;
  }
-
-  a:visited{
-	color: #EF4036;
- }
-
-
 
 .site-header {
     min-height: 95px;
@@ -430,6 +429,33 @@ footer a img:hover {
 	height: auto;
 	text-align: center;
 	padding: 50px 0;
+}
+
+.fullwidth.banner {
+  background: #E53E34;
+  margin-bottom: 60px;
+}
+
+.banner h2 {
+  color: #FFFFFF;
+}
+
+.banner h2 a {
+  color: #E53E34;
+  background: #FFEBEB;
+  padding: 3px 10px 9px;
+  border-radius: 6px;
+  text-decoration: none;
+  border-bottom: 2px solid #BB2222;
+}
+
+.banner h2 a:hover {
+  color: #E53E34;
+  background: #FFFFFF;
+  padding: 3px 10px 9px;
+  border-radius: 6px;
+  text-decoration: none;
+  border-bottom: 2px solid #BB2222;
 }
 
 .info{
@@ -906,4 +932,10 @@ span.paring {
 	padding: 199px 0px 0px 63px;
 	height: 515px;
 	width: 245px;
+}
+
+/*NEWS LIST*/
+
+#data li {
+  margin: 0px 0px 30px;
 }
