@@ -79,7 +79,7 @@
 	position: absolute;
 	left: 50%;
 	width: 50%;
-	top: 50%;
+	top: 40%;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	-webkit-transform: translateY(-50%) rotateX(0deg) rotateZ(0deg);
