@@ -19,8 +19,13 @@ h1{
 	color: #1B1B1B;
 }
 
-h2 {
+h2, h4 {
 	font-family: "Yanone Kaffeesatz";
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 500;
 }
 
  p{
