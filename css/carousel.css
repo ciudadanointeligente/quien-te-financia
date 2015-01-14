@@ -41,14 +41,13 @@
 
 .slideshow > nav span {
 	display: inline-block;
-	width: 60px;
-	height: 25px;
-	border-top: 10px solid #fff;
-	border-bottom: 10px solid #fff;
-	background-color: #ddd;
+	width: 15px;
+	height: 15px;
+	background-color: #676666;
 	cursor: pointer;
 	margin: 0 3px;
 	transition: background-color 0.2s;
+	border-radius: 10px;
 }
 
 .slideshow > nav span:hover {
@@ -56,7 +55,7 @@
 }
 
 .slideshow > nav span.current {
-	background-color: #aaa;
+	background-color: #DADADA;
 }
 
 .description {
@@ -375,4 +374,15 @@
 #cdawrap {
 	top: 550px !important;
 	background: #f0f0f0 !important;
+}
+
+.slideshow .strong {
+	background: #E33D34;
+	color: #FFFFFF;
+	border-radius: 3px;
+	padding: 0px 4px 1px;
+}
+
+.slideshow h2 {
+	margin: 20px 0 5px;
 }
