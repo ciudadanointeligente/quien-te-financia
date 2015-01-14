@@ -104,10 +104,10 @@
 	}
 
 	TiltSlider.prototype._showItem = function( pos ) {
-		if( this.isAnimating ) {
+		/*if( this.isAnimating ) {
 			return false;
 		}
-		this.isAnimating = true;
+		this.isAnimating = true;*/
 
 		classie.removeClass( this.navDots[ this.current ], 'current' );
 
@@ -120,8 +120,10 @@
 		// next item to come in
 		var nextItem = this.items[ this.current ],
 			// set random effects for the items
-			outEffect = this.animEffectsOut[ Math.floor( Math.random() * this.animEffectsOut.length ) ],
-			inEffect = this.animEffectsIn[ Math.floor( Math.random() * this.animEffectsOut.length ) ];
+			//outEffect = this.animEffectsOut[ Math.floor( Math.random() * this.animEffectsOut.length ) ],
+			outEffect = this.animEffectsOut[ 0 ],
+			//inEffect = this.animEffectsIn[ Math.floor( Math.random() * this.animEffectsOut.length ) ];
+			inEffect = this.animEffectsIn[ 0 ];
 
 		currentItem.setAttribute( 'data-effect-out', outEffect );
 		nextItem.setAttribute( 'data-effect-in', inEffect );
