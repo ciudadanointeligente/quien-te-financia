@@ -23,6 +23,10 @@ h1{
 	color: #FFFFFF;
 }
 
+.col-md-8 h2 {
+	margin-bottom: 60px;
+}
+
 h2 {
 	font-family: "Yanone Kaffeesatz";
 	font-size: 46px;
@@ -64,8 +68,8 @@ a:visited{
  }
 
 .site-header {
-    min-height: 95px;
-    background: #000;
+	min-height: 70px;
+    background: #1F1F1F;
     padding:10px;
 
     /* Positioning context for the mobile navigation icon*/
@@ -150,10 +154,10 @@ a:visited{
 
 .siteLogo{
 	background: url(../img/logo-qtf.png) no-repeat 0 0 transparent;
-	background-size:225px 72px;
-	height: 72px;
+	background-size: 200px 64px;
+	height: 65px;
 	display: block;
-	width: 225px;
+	width: 203px;
 	text-indent: -99999px;
 	float: left;
 }
@@ -395,7 +399,6 @@ footer a img:hover {
 .reform{
 	margin: 0 auto;
 	padding: 10px 40px 40px;
-	max-width: 900px;
 	background: #fff;
 	border: 1px solid #E5E5E5;
 	-webkit-border-radius: 5px;
@@ -447,30 +450,28 @@ footer a img:hover {
 }
 
 .fullwidth.banner {
-  background: #E53E34;
-  margin-bottom: 60px;
+	background: #82C5E8;
+	margin-bottom: 60px;
 }
 
 .banner h2 {
-  color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 .banner h2 a {
-  color: #E53E34;
-  background: #FFEBEB;
-  padding: 3px 10px 9px;
-  border-radius: 6px;
-  text-decoration: none;
-  border-bottom: 2px solid #BB2222;
+	color: #F24747;
+	background: #FFFFFF;
+	padding: 7px 30px 18px;
+	border-radius: 6px;
+	text-decoration: none;
+	border-bottom: 2px solid #70AEDA;
 }
 
 .banner h2 a:hover {
-  color: #E53E34;
-  background: #FFFFFF;
-  padding: 3px 10px 9px;
-  border-radius: 6px;
+  color: #FFFFFF;
+  background: #E53E34;
   text-decoration: none;
-  border-bottom: 2px solid #BB2222;
+  border-bottom: 2px solid #980000;
 }
 
 .info{

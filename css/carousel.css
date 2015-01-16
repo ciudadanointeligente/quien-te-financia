@@ -1,6 +1,13 @@
 
 /*CAROUSEL*/
 
+.hero {
+  background: -webkit-radial-gradient(circle, #1F1F1F 5%, #000 60%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(circle, #1F1F1F 5%, #000 60%); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(circle, #1F1F1F 5%, #000 60%); /* For Firefox 3.6-15 */
+  background: radial-gradient(circle, #1F1F1F 5%, #000 60%); /* Standard syntax */
+}
+
 .slideshow {
 	position: relative;
 	margin-bottom: 60px;
@@ -77,6 +84,7 @@
 .description h3 {
 	font-size: 200%;
 	color: #FFFFFF;
+	margin-top: 30px;
 }
 
 .tiltview {
@@ -382,8 +390,9 @@
 }
 
 .slideshow .strong {
-	background: #01CAAB;
+	background: #64A8CB;
 	color: #FFFFFF;
-	border-radius: 3px;
-	padding: 0px 4px 1px;
+	border-radius: 2px;
+	padding: 0px 5px 2px 7px;
+	margin: 0 5px 0 0;
 }
