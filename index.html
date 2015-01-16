@@ -1,6 +1,11 @@
 ---
 layout: default
 ---	
+<style>
+	.nodisplay {
+		display: none;
+	}
+</style>
 <div class="home">
 	{% include puppets.html %}
 	{% include banner2.html %}
@@ -20,7 +25,7 @@ layout: default
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="/js/tabletop.js"></script>
 	<script type="text/javascript">
-		window.onload = function() { init() };
+		window.onload = function() { init(); myFunct(); };
 
 		var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
 
@@ -32,11 +37,15 @@ layout: default
 
 		function showInfo(data) {
 			var el_ul = document.createElement('ul');
+				el_ul.id = "articles"
+				el_ul.classList.add('list-unstyled')
 
+			var cnt = 0;
 			data.forEach( function(key, value) {
 				
 				var el_li = document.createElement('li');
-					el_li.classList.add('list-unstyled')
+				if(cnt>9)
+					el_li.classList.add('nodisplay')
 				var url = document.createElement('a');
 					url.setAttribute('href', key.source );
 					url.setAttribute('target', '_blank' );
@@ -56,10 +65,16 @@ layout: default
 				p.appendChild(read_more)
 				el_li.appendChild(p)
 				el_ul.appendChild(el_li)
+
+				cnt++;
 			})
 
 			document.getElementById('data').appendChild( el_ul );
 		}
+
+		var the_body = document.body; //getElementById('the_body');
+
+		
 	</script>
 	{% include banner.html %}
 
