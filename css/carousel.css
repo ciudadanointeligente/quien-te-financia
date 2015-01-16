@@ -59,7 +59,7 @@
 }
 
 .description {
-	width: 50%;
+	width: 60%;
 	padding: 2em 0em;
 	position: relative;
 	z-index: 1000;
@@ -71,13 +71,18 @@
 }
 
 .description h2 {
+	font-size: 39px;
+}
+
+.description h3 {
 	font-size: 200%;
+	color: #FFFFFF;
 }
 
 .tiltview {
 	position: absolute;
-	left: 50%;
-	width: 50%;
+	left: 62%;
+	width: 38%;
 	top: 40%;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -381,8 +386,4 @@
 	color: #FFFFFF;
 	border-radius: 3px;
 	padding: 0px 4px 1px;
-}
-
-.slideshow h2 {
-	margin: 20px 0 5px;
 }

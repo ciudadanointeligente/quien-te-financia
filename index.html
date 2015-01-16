@@ -12,8 +12,10 @@ layout: default
 	<div class="container">
 	  	<div class="row">
 	  		<div class="col-md-8">
+		  		<h2>Qué esta pasando en el #CasoPenta</h2>
 		  		<!-- feed noticias -->
-	  			<div id="data"></div>
+		  			<div id="data"></div>
+		  		<!-- fin feed noticias -->
 	  		</div>
 	      	<div class="col-md-4">
 			      	{% include feed-twitter.html %}
@@ -56,7 +58,7 @@ layout: default
 					read_more.setAttribute('target', '_blank' );
 					read_more.classList.add('view_more')
 					read_more.appendChild( document.createTextNode( " Seguir leyendo" ) );
-				var h3 = document.createElement('h2');
+				var h3 = document.createElement('h3');
 					h3.appendChild( url )
 				var p = document.createElement('p')
 					p.appendChild( document.createTextNode(key.content) )
