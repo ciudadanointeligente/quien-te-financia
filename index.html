@@ -14,7 +14,9 @@ layout: default
 	  		<div class="col-md-8">
 		  		<h2>Qué esta pasando en el #CasoPenta</h2>
 		  		<!-- feed noticias -->
-		  			<div id="data"></div>
+		  			<div id="data">
+		  				<ul id="articles" class="list-unstyled"></ul>
+		  			</div>
 		  		<!-- fin feed noticias -->
 	  		</div>
 	      	<div class="col-md-4">
@@ -38,9 +40,10 @@ layout: default
 		}
 
 		function showInfo(data) {
-			var el_ul = document.createElement('ul');
-				el_ul.id = "articles"
-				el_ul.classList.add('list-unstyled')
+			// var el_ul = document.createElement('ul');
+			// 	el_ul.id = "articles"
+			// 	el_ul.classList.add('list-unstyled')
+			var el_ul = document.getElementById('articles');
 
 			var cnt = 0;
 			data.forEach( function(key, value) {
@@ -71,7 +74,7 @@ layout: default
 				cnt++;
 			})
 
-			document.getElementById('data').appendChild( el_ul );
+			//document.getElementById('articles').appendChild( el_ul );
 		}
 
 		var the_body = document.body; //getElementById('the_body');

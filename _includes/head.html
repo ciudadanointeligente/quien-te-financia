@@ -39,14 +39,14 @@
 
             if( window.pageYOffset > min_scroll ) {
                 
-                for(x=0;x<start;x++) {
+                for(x=0;x<10;x++) {
                     pos = start+x;
                     li[pos].classList.remove('nodisplay')
                     new_val = start+x
                 }
                 start = new_val
                 
-                min_scroll = min_scroll + 300;
+                min_scroll = min_scroll + 1000;
                 
             }
         }
