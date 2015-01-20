@@ -5,7 +5,7 @@ description: Hasta que no sepamos quién los financia nos gobierna un poder invi
 baseurl: "http://casopenta.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
-analytics: 'UA-41822715-1'
+analytics: 'UA-58766000-1' #'UA-41822715-1'
 basedomain: casopenta.cl #quientefinancia.cl
 
 # build settings
