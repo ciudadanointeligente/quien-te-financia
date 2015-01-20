@@ -8,11 +8,13 @@ layout: default
 </style>
 <div class="home">
 	{% include puppets.html %}
+	<!-- <a href="#feed">ir a noticias</a> -->
 	{% include banner2.html %}
 	<div class="container">
 	  	<div class="row">
 	  		<div class="col-md-8">
 		  		<h2>Qué esta pasando en el #CasoPenta</h2>
+			  		<a name="feed"></a>
 		  		<!-- feed noticias -->
 		  			<div id="data">
 		  				<ul id="articles" class="list-unstyled"></ul>
@@ -21,6 +23,7 @@ layout: default
 	  		</div>
 	      	<div class="col-md-4">
 			      	{% include feed-twitter.html %}
+			      	<div><iframe width="100%" height="315" src="//www.youtube.com/embed/FLeFaQ9RpyE" frameborder="0" allowfullscreen></iframe></div>
 	      	</div>
 	  	</div>
 	</div>

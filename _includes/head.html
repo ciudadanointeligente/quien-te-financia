@@ -51,4 +51,31 @@
             }
         }
     </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $(window).bind('scroll', function() {
+        var navHeight = $( window ).height() - 70;
+        if ($(window).scrollTop() > navHeight) {
+        $('nav').addClass('fixed');
+        }
+        else {
+        $('nav').removeClass('fixed');
+        }
+        });
+        });
+        $(document).ready(function(){
+        $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        $('html, body').stop().animate({
+        'scrollTop': $target.offset().top-40
+        }, 900, 'swing', function () {
+        window.location.hash = target;
+        });
+        });
+        });
+    </script>
+
 </head>
