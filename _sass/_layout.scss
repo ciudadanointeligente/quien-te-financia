@@ -465,15 +465,17 @@ footer a img:hover {
 
 .banner h2 {
 	color: #FFFFFF;
+	line-height: 63px;
 }
 
 .banner h2 a {
 	color: #F24747;
 	background: #FFFFFF;
-	padding: 7px 30px 18px;
+	padding: 0px 30px 9px;
 	border-radius: 6px;
 	text-decoration: none;
 	border-bottom: 2px solid #70AEDA;
+	display: inline-block;
 }
 
 .banner h2 a:hover {
