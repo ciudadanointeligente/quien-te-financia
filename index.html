@@ -10,6 +10,29 @@ layout: default
 	{% include puppets.html %}
 	<!-- <a href="#feed">ir a noticias</a> -->
 	{% include banner2.html %}
+	<script type="text/javascript">
+        var min_scroll = 1763;
+        var start = 10;
+        function mas_articulos(){
+            var ul = document.getElementById('articles');
+            nro_li = 10;    
+            var li = ul.children;
+
+            // if( window.pageYOffset > min_scroll ) {
+                
+                for(x=0;x<10;x++) {
+                    pos = start+x;
+                    li[pos].classList.remove('nodisplay')
+                    new_val = start+x
+                }
+                start = new_val
+                
+                min_scroll = min_scroll + 1000;
+                
+            // }
+            return false;
+        }
+    </script>
 	<div class="container">
 	  	<div class="row">
 	  		<div class="col-md-8">
@@ -18,6 +41,7 @@ layout: default
 		  		<!-- feed noticias -->
 		  			<div id="data">
 		  				<ul id="articles" class="list-unstyled"></ul>
+		  				<button href="#" onclick="mas_articulos()" class="btn btn-default">más artículos</button>
 		  			</div>
 		  		<!-- fin feed noticias -->
 	  		</div>
@@ -32,7 +56,7 @@ layout: default
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="/js/tabletop.js"></script>
 	<script type="text/javascript">
-		window.onload = function() { init(); myFunct(); };
+		window.onload = function() { init(); /*mas_articulos();*/ };
 
 		var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
 
