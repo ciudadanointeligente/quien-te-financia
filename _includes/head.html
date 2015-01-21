@@ -29,52 +29,30 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/carousel.css">
 
-    <script>
-        var min_scroll = 1763;
-        var start = 10;
-        function myFunct(){
-            var ul = document.getElementById('articles');
-            nro_li = 10;    
-            var li = ul.children;
 
-            if( window.pageYOffset > min_scroll ) {
-                
-                for(x=0;x<10;x++) {
-                    pos = start+x;
-                    li[pos].classList.remove('nodisplay')
-                    new_val = start+x
-                }
-                start = new_val
-                
-                min_scroll = min_scroll + 1000;
-                
-            }
-        }
-    </script>
 
     <script type="text/javascript">
         $(document).ready(function(){
-        $(window).bind('scroll', function() {
-        var navHeight = $( window ).height() - 70;
-        if ($(window).scrollTop() > navHeight) {
-        $('nav').addClass('fixed');
-        }
-        else {
-        $('nav').removeClass('fixed');
-        }
-        });
-        });
-        $(document).ready(function(){
-        $('a[href^="#"]').bind('click.smoothscroll',function (e) {
-        e.preventDefault();
-        var target = this.hash,
-        $target = $(target);
-        $('html, body').stop().animate({
-        'scrollTop': $target.offset().top-40
-        }, 900, 'swing', function () {
-        window.location.hash = target;
-        });
-        });
+            $(window).bind('scroll', function() {
+                var navHeight = $( window ).height() - 70;
+                if ($(window).scrollTop() > navHeight) {
+                    $('nav').addClass('fixed');
+                }
+                else {
+                    $('nav').removeClass('fixed');
+                }
+            });
+        
+            $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+                e.preventDefault();
+                var target = this.hash,
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top-40
+                }, 900, 'swing', function () {
+                    window.location.hash = target;
+                });
+            });
         });
     </script>
 
