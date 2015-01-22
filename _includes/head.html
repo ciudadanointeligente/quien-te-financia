@@ -11,7 +11,7 @@
     <meta property="og:url" content="//quientefinancia.cl/" />
     <meta property="og:image" content="//quientefinancia.cl/img/icono-qtf.png" />
     <meta property="og:description" content="Ahora es cuando debemos avanzar en una reforma al sistema de financiamiento de la política. Te presentamos la propuesta de Ciudadano Inteligente." />
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <!-- Latest compiled and minified CSS -->
 
@@ -20,16 +20,20 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/toucheffects.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <!-- Carousel -->
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/carousel.css">
 
-
+<script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 
     <script type="text/javascript">
         $(document).ready(function(){
@@ -42,7 +46,6 @@
                     $('nav').removeClass('fixed');
                 }
             });
-        
             $('a[href^="#"]').bind('click.smoothscroll',function (e) {
                 e.preventDefault();
                 var target = this.hash,
