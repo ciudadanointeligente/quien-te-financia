@@ -2,7 +2,7 @@
  * Site header
  */
  html body{
-	background: #1B1B1B;
+	background: #F0F0F0;
 	margin: 0;
 	font-weight: normal;
 	font-size: 15px;
@@ -19,7 +19,7 @@ h1{
 	color: #1B1B1B;
 }
 
-.home h2 {
+.slideshow h2 {
 	color: #FFFFFF;
 }
 
@@ -52,7 +52,7 @@ h4 {
 
  }
 
- .home p {
+.slideshow p {
  	color: #CCCCCC;
  }
 
@@ -69,13 +69,35 @@ a:visited{
   text-decoration: none;
  }
 
+ /*HEADER*/
+
 .site-header {
 	min-height: 70px;
-    background: #1F1F1F;
+    background: #F44336;
     padding:10px;
 
     /* Positioning context for the mobile navigation icon*/
     position: relative;
+}
+
+.mainNav {
+	float: right;
+	list-style: none;
+	padding: 10px 0 0;
+}
+
+.mainNav ul {
+	float: right;
+	list-style: none;
+	position: relative;
+	margin: 7px 0 0 0;
+	-webkit-padding-start: 0px;
+}
+
+.mainNav ul li {
+	float: left;
+	margin-left: 5px;
+	list-style: none;
 }
 
 .site-title {
@@ -89,6 +111,16 @@ a:visited{
     &:visited {
         color: $grey-color-dark;
     }
+}
+
+.mainNav a {
+	color: #FFFFFF;
+	padding: 4px 8px;
+	border-radius: 3px;
+}
+
+.mainNav a:hover {
+	background: #DD3428;
 }
 
 .site-nav {
@@ -167,8 +199,16 @@ a:visited{
 div#bajada-logo {
 	float: left;
 	margin-top: 43px;
-	color: #8B8B8B;
+	color: #FFC9C9;
 	margin-left: -120px;
+}
+
+.edition {
+	text-align: right;
+	color: #fff;
+	font-weight: 100;
+	font-size: 31px;
+	line-height: 26px;
 }
 
 
@@ -459,30 +499,52 @@ footer a img:hover {
 }
 
 .fullwidth.banner {
-	background: #82C5E8;
+	background: #FFFFFF;
 	margin-bottom: 60px;
 }
 
 .banner h2 {
-	color: #FFFFFF;
+	color: #F44336;
 	line-height: 63px;
 }
 
 .banner h2 a {
-	color: #F24747;
-	background: #FFFFFF;
+	color: #FFFFFF;
+	background: #F44336;
 	padding: 0px 30px 9px;
 	border-radius: 6px;
 	text-decoration: none;
-	border-bottom: 2px solid #70AEDA;
 	display: inline-block;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
 }
 
 .banner h2 a:hover {
-  color: #FFFFFF;
-  background: #E53E34;
-  text-decoration: none;
-  border-bottom: 2px solid #980000;
+	color: #FFFFFF;
+	background: #FF4E41;
+	text-decoration: none;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.53);
+}
+
+.banner h3 {
+	color: #F44336;
+	line-height: 63px;
+}
+
+.banner h3 a {
+	color: #FFFFFF;
+	background: #F44336;
+	padding: 0px 30px 9px;
+	border-radius: 6px;
+	text-decoration: none;
+	display: inline-block;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.banner h3 a:hover {
+	color: #FFFFFF;
+	background: #FF4E41;
+	text-decoration: none;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.53);
 }
 
 .info{
@@ -540,7 +602,6 @@ footer a img:hover {
 }
 
 .fullwidth{
-	background: #F8F8F8;
 	width: 100%;
 	margin: 0 auto ;
 	padding: 50px 0;
@@ -579,26 +640,6 @@ p.twitter-share{
 
 .item{
 	margin-bottom: 20px;
-}
-
-.mainNav {
-	float: right;
-	list-style: none;
-	padding: 15px 0;
-}
-
-.mainNav ul {
-	float: right;
-	list-style: none;
-	position: relative;
-	margin: 10px 0 0 0;
-	-webkit-padding-start: 0px;
-}
-
-.mainNav ul li {
-	float: left;
-	margin-left: 20px;
-	list-style: none;
 }
 
 /* -------------------- Buttons -------------------- */
@@ -913,7 +954,7 @@ span.paring {
 	max-width: 900px;
 	margin: 30px auto;
 	text-align: center;
-	background: #1B1B1B;
+	background: #F0F0F0;
 	padding: 20px 110px;
 	position: relative;
 }
