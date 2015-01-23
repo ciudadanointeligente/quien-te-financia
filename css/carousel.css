@@ -18,7 +18,7 @@
 	padding: 0;
 	margin: 0;
 	position: relative;
-	height: 500px;
+	height: 400px;
 	width: 100%;
 	overflow: visible;
 }
@@ -66,8 +66,8 @@
 }
 
 .description {
-	width: 60%;
-	padding: 2em 0em;
+	width: 55%;
+	padding: 0em;
 	position: relative;
 	z-index: 1000;
 	opacity: 0;
@@ -90,8 +90,8 @@
 .tiltview {
 	position: absolute;
 	left: 62%;
-	width: 38%;
-	top: 40%;
+	width: 45%;
+	top: 30%;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	-webkit-transform: translateY(-50%) rotateX(0deg) rotateZ(0deg);
