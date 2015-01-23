@@ -20,7 +20,7 @@
 	position: relative;
 	height: 500px;
 	width: 100%;
-	overflow: hidden;
+	overflow: visible;
 }
 
 .no-js .slides {
@@ -390,7 +390,7 @@
 }
 
 .slideshow .strong {
-	background: #64A8CB;
+	background: #5F5F5F;
 	color: #FFFFFF;
 	border-radius: 2px;
 	padding: 0px 5px 2px 7px;
