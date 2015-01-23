@@ -75,6 +75,7 @@ a:visited{
 	min-height: 70px;
     background: #F44336;
     padding:10px;
+    z-index: 1;
 
     /* Positioning context for the mobile navigation icon*/
     position: relative;
@@ -1021,3 +1022,22 @@ span.paring {
 .timeline-header.customisable-border {
 	border: none;
 }
+
+/*TOOLTIP*/
+
+.tooltip {
+	opacity: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.tooltip-inner {
+	color: #FFFFFF;
+	background: #EF4036;
+	padding: 10px;
+	max-width: 400px;
+}
+
+.tooltip.top .tooltip-arrow{border-top-color:#EF4036}
+
+

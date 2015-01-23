@@ -29,14 +29,12 @@
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/carousel.css">
 
-<script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
-</script>
 
     <script type="text/javascript">
         $(document).ready(function(){
+
+            $('[data-toggle="tooltip"]').tooltip()
+
             $(window).bind('scroll', function() {
                 var navHeight = $( window ).height() - 70;
                 if ($(window).scrollTop() > navHeight) {
