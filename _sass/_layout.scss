@@ -631,7 +631,7 @@ footer a img:hover {
 }
 
 .follow{
-	margin: -30px 0px 0px 0;
+	margin: -54px 0px 0px 0;
 }
 
 .embed{
@@ -834,22 +834,34 @@ ol.simple-list > li:before {
 
 /** queries for mobile **/
 @media (max-width: 428px) {
+	div#bajada-logo {
+		float: initial;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
 	.thumbnail{
-	border: none !important;
-	float: left;
-	width: 100%;
-}
+		border: none !important;
+		float: left;
+		width: 100%;
+	}
 
-.thumbnail>img, .thumbnail a>img{
-	width: 30%;
-	float: left;
-}
+	.thumbnail>img, .thumbnail a>img{
+		width: 30%;
+		float: left;
+	}
 
-.thumbnail .caption {
-	padding: 9px;
-	color: #333;
-	float: left;
-}
+	.thumbnail .caption {
+		padding: 9px;
+		color: #333;
+		float: left;
+	}
+
+	.slideshow {
+		min-height: 700px;
+	}
+	.slideshow > nav {
+		margin-top: 145px !important;
+	}
 
 }
 
