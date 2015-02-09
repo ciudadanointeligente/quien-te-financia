@@ -49,7 +49,6 @@ $text-color: #45515E;
  p{
 	color: $text-color;
 	line-height: 26px;
-	margin: 0;
 	padding: 0;
 
  }
@@ -1068,4 +1067,9 @@ span.paring {
 
 .tooltip.top .tooltip-arrow{border-top-color:#EF4036}
 
+/*DAVALOS*/
 
+.marioneta-davalos {
+	float: right;
+	margin-right: 20px;
+}
