@@ -44,12 +44,16 @@ h4 {
 	font-weight: 500;
 }
 
+$text-color: #45515E;
+
  p{
-	color: #45515E;
+	color: $text-color;
 	line-height: 26px;
-	margin: 0;
 	padding: 0;
 
+ }
+ li{
+ 	color: $text-color;
  }
 
  span.bajada {
@@ -834,22 +838,34 @@ ol.simple-list > li:before {
 
 /** queries for mobile **/
 @media (max-width: 428px) {
+	div#bajada-logo {
+		float: initial;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
 	.thumbnail{
-	border: none !important;
-	float: left;
-	width: 100%;
-}
+		border: none !important;
+		float: left;
+		width: 100%;
+	}
 
-.thumbnail>img, .thumbnail a>img{
-	width: 30%;
-	float: left;
-}
+	.thumbnail>img, .thumbnail a>img{
+		width: 30%;
+		float: left;
+	}
 
-.thumbnail .caption {
-	padding: 9px;
-	color: #333;
-	float: left;
-}
+	.thumbnail .caption {
+		padding: 9px;
+		color: #333;
+		float: left;
+	}
+
+	.slideshow {
+		min-height: 700px;
+	}
+	.slideshow > nav {
+		margin-top: 145px !important;
+	}
 
 }
 
@@ -1051,4 +1067,9 @@ span.paring {
 
 .tooltip.top .tooltip-arrow{border-top-color:#EF4036}
 
+/*DAVALOS*/
 
+.marioneta-davalos {
+	float: right;
+	margin-right: 20px;
+}
