@@ -11,3 +11,7 @@ basedomain: casopenta.cl #quientefinancia.cl
 
 # build settings
 markdown: kramdown
+
+collections:
+  congressmen:
+    output: true

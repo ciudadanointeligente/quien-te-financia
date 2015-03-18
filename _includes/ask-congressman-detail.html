@@ -1,0 +1,23 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal{{counter}}">
+  Ver mas
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal{{counter}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Detalles de {{congressman.name}}</h4>
+      </div>
+      <div class="modal-body">
+        <b>Acusación</b></br>
+        {{congressman.current_situation}} </br></br>
+
+        <b>Arriesga pena</b></br>
+        {{congressman.risk}}
+      </div>
+    </div>
+  </div>
+</div>

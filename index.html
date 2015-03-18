@@ -1,13 +1,13 @@
 ---
 layout: home
----	
+---
 <style>
 	.nodisplay {
 		display: none;
 	}
 </style>
 <div class="home">
-	{% include ask-casopenta.html %}
+	{% include ask-congressmen.html %}
 	{% include buttons.html %}
 	{% include banner2.html %}
 	<script type="text/javascript">
@@ -15,20 +15,20 @@ layout: home
         var start = 10;
         function mas_articulos(){
             var ul = document.getElementById('articles');
-            nro_li = 10;    
+            nro_li = 10;
             var li = ul.children;
 
             // if( window.pageYOffset > min_scroll ) {
-                
+
                 for(x=0;x<3;x++) {
                     pos = start+x;
                     li[pos].classList.remove('nodisplay')
                     new_val = start+x
                 }
                 start = new_val
-                
+
                 min_scroll = min_scroll + 1000;
-                
+
             // }
             return false;
         }
@@ -73,7 +73,7 @@ layout: home
 
 			var cnt = 0;
 			data.forEach( function(key, value) {
-				
+
 				var el_li = document.createElement('li');
 				if(cnt>9)
 					el_li.classList.add('nodisplay')
@@ -91,7 +91,7 @@ layout: home
 					h3.appendChild( url )
 				var p = document.createElement('p')
 					p.appendChild( document.createTextNode(key.content) )
-				
+
 				el_li.appendChild(h3)
 				p.appendChild(read_more)
 				el_li.appendChild(p)
