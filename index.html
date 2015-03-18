@@ -7,8 +7,7 @@ layout: home
 	}
 </style>
 <div class="home">
-	{% include puppets.html %}
-	<!-- <a href="#feed">ir a noticias</a> -->
+	{% include ask-casopenta.html %}
 	{% include buttons.html %}
 	{% include banner2.html %}
 	<script type="text/javascript">
@@ -21,7 +20,7 @@ layout: home
 
             // if( window.pageYOffset > min_scroll ) {
                 
-                for(x=0;x<10;x++) {
+                for(x=0;x<3;x++) {
                     pos = start+x;
                     li[pos].classList.remove('nodisplay')
                     new_val = start+x
@@ -100,12 +99,7 @@ layout: home
 
 				cnt++;
 			})
-
 			//document.getElementById('articles').appendChild( el_ul );
 		}
-
 		var the_body = document.body; //getElementById('the_body');
-
-		
 	</script>
-
