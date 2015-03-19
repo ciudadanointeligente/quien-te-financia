@@ -1,6 +1,6 @@
 ---
 name: "Ernesto Silva"
-image: "hugo-gutierrez.png"
+image: "ernesto-silva.jpg"
 current_situation: ""
 risk: ""
 ---

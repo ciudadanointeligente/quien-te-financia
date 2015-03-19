@@ -1,6 +1,6 @@
 ---
 name: "Roberto León"
-image: "hugo-gutierrez.png"
+image: "roberto-leon.jpg"
 current_situation: ""
 risk: ""
 ---

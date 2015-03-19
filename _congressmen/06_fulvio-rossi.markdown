@@ -1,6 +1,6 @@
 ---
 name: "Fulvio Rossi"
-image: "hugo-gutierrez.png"
+image: "fulvio-rossi.jpg"
 current_situation: ""
 risk: ""
 ---

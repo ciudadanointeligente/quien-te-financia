@@ -1,6 +1,6 @@
 ---
 name: "Quien resulte responsable"
-image: "hugo-gutierrez.png"
+image: "nn.png"
 current_situation: ""
 risk: ""
 ---
