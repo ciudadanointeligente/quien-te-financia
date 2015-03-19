@@ -10,7 +10,7 @@ layout: home
 	{% include ask-congressmen.html %}
 	{% include buttons.html %}
 	{% include banner4.html %}
-	{% include our-lawyers.html %}
+	{% include lawyers.html %}
 	<script type="text/javascript">
         var min_scroll = 1763;
         var start = 10;
@@ -21,7 +21,7 @@ layout: home
 
             // if( window.pageYOffset > min_scroll ) {
 
-                for(x=0;x<3;x++) {
+                for(x=0;x<10;x++) {
                     pos = start+x;
                     li[pos].classList.remove('nodisplay')
                     new_val = start+x
@@ -75,7 +75,7 @@ layout: home
 		data.forEach( function(key, value) {
 
 			var el_li = document.createElement('li');
-			if(cnt>9)
+			if(cnt>2)
 				el_li.classList.add('nodisplay')
 			var url = document.createElement('a');
 				url.setAttribute('href', key.source );
