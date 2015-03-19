@@ -12,11 +12,14 @@
     background: radial-gradient(circle, #1F1F1F 5%, #000 60%);
  }
 
-h1{
-	font-size: 51px;
-	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-	font-weight: 400;
-	color: #1B1B1B;
+h1 {
+  font-size: 51px;
+  font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .slideshow h2 {
@@ -36,6 +39,7 @@ h3 {
 	font-family: "Yanone Kaffeesatz";
 	font-weight: 500;
 	font-size: 30px;
+    color: #CCCCCC;
 }
 
 h4 {
