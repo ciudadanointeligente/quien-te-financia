@@ -18,6 +18,7 @@ h1 {
   font-weight: 400;
   color: #FFFFFF;
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center
 }
 
@@ -40,7 +41,6 @@ h3 {
 	font-weight: 500;
 	font-size: 30px;
     color: #CCCCCC;
-    margin-bottom: 30px;
 }
 
 h4 {
@@ -239,6 +239,10 @@ div#bajada-logo {
 	line-height: 26px;
 }
 
+.panel h4 {
+    text-align: left;
+    font-size: 24px;
+}
 
 /**
  * Site footer
