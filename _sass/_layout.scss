@@ -31,7 +31,8 @@ h1 {
 
 h2 {
 	font-family: "Yanone Kaffeesatz";
-	font-size: 46px;
+	font-size: 50px;
+    color: #FFFFFF;
 }
 
 h3 {
@@ -39,6 +40,7 @@ h3 {
 	font-weight: 500;
 	font-size: 30px;
     color: #CCCCCC;
+    margin-bottom: 30px;
 }
 
 h4 {
@@ -47,15 +49,24 @@ h4 {
 	font-weight: 500;
     color: #CCCCCC;
     text-align: right;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h5 {
+    font-family: "Yanone Kaffeesatz";
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
 }
 
 $text-color: #45515E;
 
  p{
-	color: $text-color;
+	color: #CCCCCC;
 	line-height: 26px;
 	padding: 0;
+    font-size: 14px;
 
  }
  li{
@@ -65,7 +76,7 @@ $text-color: #45515E;
  span.bajada {
 	display: block;
 	font-size: 30px;
-	color: #4D5965;
+	color: #CCCCCC;
 }
 
 .slideshow p {

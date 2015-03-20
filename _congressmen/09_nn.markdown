@@ -1,6 +1,6 @@
 ---
 name: "Quien resulte responsable"
 image: "nn.png"
-current_situation: ""
+current_situation: "</br></br>"
 risk: ""
 ---
