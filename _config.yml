@@ -1,7 +1,7 @@
 # site settings
 title: Quien te financia
 email: info@ciudadanointeligente.org
-description: Encontré una marioneta de la política. Indígnate en CasoPenta.cl
+description: La querella que no esperaban... infórmate en CasoPenta.cl
 # Hasta que no sepamos quién los financia nos gobierna un poder invisible.
 baseurl: "http://casopenta.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
 twitter_username: ciudadanoi
@@ -11,3 +11,9 @@ basedomain: casopenta.cl #quientefinancia.cl
 
 # build settings
 markdown: kramdown
+
+collections:
+  congressmen:
+    output: true
+  lawyers:
+    output: true 

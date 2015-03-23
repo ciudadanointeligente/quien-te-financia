@@ -1,0 +1,691 @@
+/**
+ * Custom design for QTF
+ */
+
+.petition{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	background: #F8F8F8;
+}
+
+.petition h2 {
+	color: #000;
+}
+
+.petition h2 a {
+	background: #000;
+	color: #fff;
+	font-size: 50px;
+	padding: 5px 15px;
+	float: right;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.titleLine {
+	margin: 95px auto 70px;
+	text-align: center;
+	position: relative;
+}
+
+.titleLine:before {
+	content: url(../img/maletin.png);
+	position: absolute;
+	top: -150px;
+	left: 40.5%;
+	z-index: -1;
+}
+
+.titleLine h1 {
+	color: #EF4036;
+	margin: 60px 0;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.titleLine h2{
+	font-size: 42px;
+}
+
+.caption h3{
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	color: #337ab7;
+}
+
+.reform{
+	margin: 0 auto;
+	padding: 10px 40px 40px;
+	background: #fff;
+	border: 1px solid #E5E5E5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.reform h2{
+	color: #1B1B1B;
+	font-size: 24px;
+	margin: 0;
+	padding:0;
+}
+
+.reform h3 {
+  margin: 20px 0 0;
+  color: #222222;
+}
+
+.reform .fa {
+	color: #EF4036;
+}
+
+/** Components **/
+
+.inside{
+	color: #fff;
+
+}
+.chart{
+	margin: 50px auto 0;
+	text-align: center;
+	width: 100%;
+}
+
+.people{
+	margin: 30px 0;
+}
+
+.firm{
+	margin: 90px auto 0;
+	max-width: 800px;
+}
+
+.firm h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
+}
+
+.banner {
+	background: #2BAF2B;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.fullwidth.banner {
+	background: #82C5E8;
+	margin-bottom: 60px;
+}
+
+.banner h2 a {
+	color: #FFFFFF;
+	background: #F44336;
+	padding: 0px 30px 9px;
+	border-radius: 6px;
+	text-decoration: none;
+	display: inline-block;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.banner h2 a:hover {
+	color: #FFFFFF;
+	background: #FF4E41;
+	text-decoration: none;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.53);
+}
+
+.banner h3 {
+	color: #FFFFFF;
+	line-height: 63px;
+	font-size: 40px;
+}
+
+.banner h3 a {
+	color: #FFFFFF;
+	background: #F44336;
+	padding: 0px 30px 9px;
+	border-radius: 6px;
+	text-decoration: none;
+	display: inline-block;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.banner h3 a:hover {
+	color: #FFFFFF;
+	background: #FF4E41;
+	text-decoration: none;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.53);
+}
+
+.info{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.info h1{
+	color: #fff;
+}
+
+.info p{
+	color: #fff;
+}
+
+.nro-peticiones{
+	margin: 20px 0;
+	color: #45515E;
+}
+
+/*PERSONAS*/
+
+.thumbnail{
+	border: none !important;
+}
+
+.thumbnail p {
+	margin-bottom: 12px;
+	line-height: 22px;
+	color: #333;
+}
+
+.thumbnail>img, .thumbnail a>img{
+	width: 100%;
+}
+
+.destacado .thumbnail {
+	background-color: #EF4036;
+}
+
+.destacado .thumbnail .caption {
+	color: #ffffff;
+}
+
+.destacado .thumbnail p {
+	color: #FFC4C4;
+}
+
+.embed-googledocs{
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+.tableauPlaceholder{
+	margin: 0 auto;
+}
+
+.home {
+  padding: 0 0 50px;
+  background: radial-gradient(circle, #1F1F1F 5%, #000 60%);
+}
+
+.video-sqm {
+	text-align: center;
+  	margin-top: 50px;
+}
+
+.fullwidth{
+	width: 100%;
+	margin: 0 auto ;
+	padding: 50px 0;
+}
+
+.inside{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.follow{
+	margin: 10px 0px;
+}
+
+.embed{
+	margin: 40px auto 0;
+	max-width: 800px;
+}
+
+.grid{
+	padding-bottom: 50px;
+	margin-top: 50px;
+
+}
+
+/*.querella .col-md-15{
+	width: 32%;
+}*/
+
+p.twitter-share{
+	margin: 10px 0 5px 0;
+}
+
+.against-vote{
+	margin: 10px;
+}
+
+.share-img{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.item{
+	margin-bottom: 20px;
+}
+
+/* -------------------- Buttons -------------------- */
+
+
+.btn-lg {
+	padding: 10px 35px;
+	font-size: 20px;
+	line-height: 1.33;
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+
+
+.btn-default {
+	color: #ffffff;
+	background: #FF4E41;
+	border: none;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+.btn-default:hover {
+	color: #FFFFFF;
+	background: #F44336;
+	text-decoration: none;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.53);
+
+}
+
+.contact a{
+	color: #ffffff;
+}
+
+.contact a:hover{
+	text-decoration: none;
+}
+
+.petition a:visited{
+	color: #ffffff;
+}
+
+.contact{
+	margin: 10px auto 0;
+}
+
+a#mycustomtwitterbutton {
+	padding: 5px;
+	background: #55acee;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-right: 1px;
+	font-size: 12px;
+}
+
+a#mycustomtwitterbutton:hover {
+	background: #328ACD;
+}
+
+a#mycustommailbutton {
+	font-size: 12px;
+	padding: 5px;
+	background: #EF4036;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-left: 1px;
+}
+
+.destacado a#mycustomtwitterbutton {
+	background: #fff;
+	color: #55acee;
+}
+
+.destacado a#mycustommailbutton {
+	background: #fff;
+	color: #EF4036;
+}
+
+.destacado a#mycustomtwitterbutton:hover {
+	color: #328ACD;
+	background: #CCE7F7;
+}
+
+.destacado a#mycustommailbutton:hover {
+	color: #D52D24;
+	background: #FFD9D9;
+}
+
+a#mycustommailbutton:hover {
+	background: #D52D24;
+}
+
+
+/* list styles for reform #2 */
+
+ol.simple-list {
+    list-style-type: none;
+    list-style-type: none;
+    margin: 50px 0;
+    margin-left: 3em;
+    padding: 0;
+    counter-reset: li-counter;
+}
+ol.simple-list > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 1.5em;
+    min-height: 3em;
+    border-left: 1px solid #CCCCCC;
+}
+ol.simple-list > li:before {
+    position: absolute;
+    left: -58px;
+    width: 0.8em;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+/** custom layout for five columns **/
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (max-width: 768px) {
+
+	.banner {
+		background: #2BAF2B;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		padding: 50px 0;
+	}
+
+	.info{
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+}
+
+/** queries for mobile **/
+@media (max-width: 428px) {
+	div#bajada-logo {
+		float: initial;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.thumbnail{
+		border: none !important;
+		float: left;
+		width: 100%;
+	}
+
+	.thumbnail>img, .thumbnail a>img{
+		width: 30%;
+		float: left;
+	}
+
+	.thumbnail .caption {
+		padding: 9px;
+		color: #333;
+		float: left;
+	}
+
+	.slideshow {
+		min-height: 700px;
+	}
+	.slideshow > nav {
+		margin-top: 145px !important;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.thumbnail{
+	border: none !important;
+	float: left;
+	width: 100%;
+}
+
+.thumbnail>img, .thumbnail a>img{
+	width: 30%;
+	float: left;
+}
+
+.thumbnail .caption {
+	padding: 9px;
+	color: #333;
+	float: left;
+}
+
+.caption h3 {
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+}
+
+/** styles for pastures visualization **/
+.postures{
+	margin: 50px auto;
+
+}
+
+.chamber-2{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.postures h2{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+
+.postures p{
+	color: #fff;
+	margin: 10px 0 0 0 ;
+	text-align: center;
+}
+
+.progress{
+	margin: 40px 0 0 0;
+}
+img.chamber {
+	z-index: 2;
+	position: absolute;
+}
+span.positive {
+	width: 60px;
+	background-color: green;
+	height: 60px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 50px;
+}
+span.against {
+	width: 60px;
+	background-color: red;
+	height: 60px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 50px;
+}
+span.abstention {
+	width: 60px;
+	background-color: #5BC0DE;
+	height: 60px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.6;
+	border-radius: 50px;
+}
+span.ausent {
+	width: 60px;
+	background-color: #f0ad4e;
+	height: 60px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.3;
+	border-radius: 50px;
+}
+span.paring {
+	width: 60px;
+	background-color: #F0AD4E;
+	height: 60px;
+	z-index: 3;
+	display: block;
+	position: relative;
+	opacity: 0.6;
+	border-radius: 50px;
+}
+
+/*BANNER HAY ACUERDO*/
+
+.fullwidth.banner-hayacuerdo {
+	background: #EF4036;
+	padding: 0;
+}
+
+.txt-banner-hayacuerdo {
+	max-width: 900px;
+	margin: 30px auto;
+	text-align: center;
+	background: #F0F0F0;
+	padding: 20px 110px;
+	position: relative;
+}
+
+.txt-banner-hayacuerdo a {
+	font-size: 32px;
+	color: #EF4036;
+	font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+}
+
+.txt-banner-hayacuerdo:before {
+	content: url(../img/noacuerdoizq.svg);
+	position: absolute;
+	top: 20px;
+	left: 4px;
+}
+
+.txt-banner-hayacuerdo:after {
+	content: url(../img/noacuerdoder.svg);
+	position: absolute;
+	top: 20px;
+	right: 4px;
+}
+
+/*PUPPETS*/
+
+.simple-puppet {
+	background: url(../img/simple-puppet.png) 0px -5px no-repeat;
+	padding: 115px 0px 0px 43px;
+	height: 430px;
+	width: 185px;
+}
+
+.simple-puppet2 {
+	background: url(../img/simple-puppet2.png) 0px -5px no-repeat;
+	padding: 145px 0px 0px 43px;
+	height: 470px;
+	width: 180px;
+}
+
+.hand-puppet {
+	background: url(../img/hand-puppet.png) -5px -25px no-repeat;
+	padding: 199px 0px 0px 63px;
+	height: 515px;
+	width: 245px;
+}
+
+/*NEWS LIST*/
+
+#data li {
+  margin: 0px 0px 30px;
+}
+
+/*FEED TWITTER*/
+
+.timeline-header.customisable-border {
+	border: none;
+}
+
+/*TOOLTIP*/
+
+.tooltip {
+	opacity: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.tooltip-inner {
+	color: #FFFFFF;
+	background: #EF4036;
+	padding: 10px;
+	max-width: 400px;
+}
+
+.tooltip.top .tooltip-arrow{border-top-color:#EF4036}
+
+/*DAVALOS*/
+
+.marioneta-davalos {
+	float: right;
+	margin-right: 20px;
+}
