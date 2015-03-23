@@ -1,11 +1,12 @@
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1" />
 
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="{{ site.description }}">
 
+	<!-- open graph -->
 	<meta property="og:title" content="Caso Penta" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="{{ site.baseurl }}" />
@@ -13,8 +14,16 @@
 	<meta property="og:description" content="{{ site.description }}" />
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-	<!-- Latest compiled and minified CSS -->
 
+	<!-- twitter card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="{{ site.twitter_username }}">
+	<meta name="twitter:title" content="{{ site.title }}">
+	<meta name="twitter:description" content="{{ site.description }}">
+	<meta name="twitter:creator" content="{{ site.twitter_username }}">
+	<meta name="twitter:image" content="{{ site.baseurl }}/img/og-img.png">
+
+	<!-- Latest compiled and minified CSS -->
 	<link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
