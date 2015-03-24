@@ -75,7 +75,7 @@
 	padding:0;
 }
 
-.reform h3 {
+.bg-lightblue .reform h3 {
   margin: 20px 0 0;
   color: #222222;
 }
@@ -85,6 +85,27 @@
 }
 
 /** Components **/
+
+.bg-lightblue {
+	background: #82C5E8;
+	h3 {
+	  color: #FFFFFF;
+	}
+	.thumbnail {
+		background-color: #64B0D8;
+	}
+}
+
+.bg-red {
+	background: #F44336;
+}
+
+.bg-white {
+	background: #FFFFFF;
+	h2, h3 {
+		color: #222222;
+	}
+}
 
 .inside{
 	color: #fff;
