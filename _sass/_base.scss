@@ -26,6 +26,28 @@ section {
   padding: 80px 0 100px;
 }
 
+section#home {
+    padding: 30px 0 100px;
+}
+
+section.arrow-down {
+    height: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.arrow-down a .fa {
+  margin-top: -30px;
+  background: #EF4036;
+  border-radius: 40px;
+  color: #FFFFFF;
+  padding: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.arrow-down a:hover .fa {
+    transform: scale(1.1);
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
