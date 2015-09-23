@@ -61,6 +61,19 @@
       }
     })
     spin(false);
+
+    var button_container = document.createElement('div');
+        button_container.classList.add('text-right');
+    var button_more = document.createElement('a');
+        button_more.classList.add('btn');
+        button_more.classList.add('btn-default');
+        button_more.setAttribute('href', '/noticias.html' );
+        button_more.appendChild( document.createTextNode( "Más artículos" ));
+
+    button_container.appendChild(button_more)
+
     document.getElementById('container_article').appendChild( el_div );
+    document.getElementById('container_article').appendChild( button_container );
+
   }
 </script>
