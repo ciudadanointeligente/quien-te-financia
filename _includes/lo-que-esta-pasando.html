@@ -40,14 +40,18 @@
 
         var el_colmd4 = document.createElement('div');
             el_colmd4.classList.add('col-md-4')
-
+        var url = document.createElement('a');
+            url.setAttribute('href', key.source );
+            url.setAttribute('target', '_blank' );
+            url.classList.add('main_url')
+            url.appendChild( document.createTextNode( key.title ) );
         var read_more = document.createElement('a');
           read_more.setAttribute('href', key.source );
           read_more.setAttribute('target', '_blank' );
           read_more.appendChild( document.createTextNode( " Seguir leyendo" ) );
 
         var h3 = document.createElement('h3');
-            h3.appendChild( document.createTextNode( key.title ) );
+            h3.appendChild(url);
 
         var p = document.createElement('p');
           p.appendChild( document.createTextNode(key.content) );
