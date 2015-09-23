@@ -9,7 +9,15 @@ layout: home
 
 <div class="home">
 	{% include buttons.html %}
-  {% include lo-que-esta-pasando.html %}
+
+  <section id="container_article" class="container">
+    <h1>Lo que está pasando en caso Penta-SQM<span class='subhead'>Sigue en tiempo real las últimas noticias sobre los casos Penta y SQM</span></h1>
+
+    <div id="articles"></div>
+    <div id="spin" class="text-center">
+      <i class="fa fa-spinner fa-spin fa-4x hidden"></i>
+    </div>
+  </section>
 
   <section>
   	<div class="container">
@@ -25,4 +33,82 @@ layout: home
   </section>
 </div>
 
-<script src="//my.hellobar.com/401a97b016ea26739fbf13381dd24e23cf4d6d15.js" type="text/javascript" charset="utf-8" async="async"></script>
+<script src="/js/tabletop.js"></script>
+<script type="text/javascript">
+  window.onload = function() { init(); spin(true); };
+
+  var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
+
+  function init() {
+  Tabletop.init( { key: public_spreadsheet_url,
+                   callback: showInfo,
+                   simpleSheet: true } )
+  }
+
+  function spin(status) {
+    var classes = 'fa fa-spinner fa-spin fa-4x'
+    var spin = document.getElementById('spin');
+      spin.children[0].className = classes+' hidden';
+    if(status)
+      spin.children[0].className = classes;
+  }
+
+  function display_news() {
+    hidden = document.getElementsByClassName('nodisplay');
+    for(x=0; x<10; x++) {
+      hidden[x].classList.remove('nodisplay');
+    }
+  }
+
+  function showInfo(data) {
+    var el_div = document.getElementById('articles');
+    var el_row = document.createElement('div');
+        el_row.classList.add('row');
+        // el_row.id = "el_row_"+cnt;
+
+    var cnt = 0;
+    data.forEach( function(key, value) {
+      if (key.title && key.content && key.content != '#N/A' && cnt < 200) {
+
+        var el_colmd4 = document.createElement('div');
+            el_colmd4.classList.add('col-md-4');
+        if (cnt > 17)
+          el_colmd4.classList.add('nodisplay');
+        var url = document.createElement('a');
+            url.setAttribute('href', key.source );
+            url.setAttribute('target', '_blank' );
+            url.classList.add('main_url');
+            url.appendChild( document.createTextNode( key.title ) );
+        var read_more = document.createElement('a');
+          read_more.setAttribute('href', key.source );
+          read_more.setAttribute('target', '_blank' );
+          read_more.appendChild( document.createTextNode( " Seguir leyendo" ) );
+
+        var h3 = document.createElement('h3');
+            h3.appendChild(url);
+
+        var p = document.createElement('p');
+          p.appendChild( document.createTextNode(key.content) );
+
+        el_colmd4.appendChild(h3);
+        p.appendChild(read_more);
+        el_colmd4.appendChild(p);
+        el_row.appendChild(el_colmd4);
+        el_div.appendChild(el_row);
+
+        cnt++;
+      }
+    })
+    spin(false);
+
+    var btn_load_more = document.createElement('button');
+        btn_load_more.setAttribute('onclick',"display_news()");
+        btn_load_more.classList.add('btn');
+        btn_load_more.classList.add('btn-default');
+        btn_load_more.appendChild( document.createTextNode('Más artículos') );
+
+    document.getElementById('container_article').appendChild( el_div );
+    document.getElementById('container_article').appendChild( btn_load_more );
+
+  }
+</script>
