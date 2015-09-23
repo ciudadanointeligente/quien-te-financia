@@ -1,0 +1,54 @@
+<section id="home">
+  <div class="container" id="container_article">
+    <h1>Lo que está pasando en caso Penta-SQM<span class='subhead'>Sigue en tiempo real las últimas noticias sobre los casos Penta y SQM</span></h1>
+
+    <!-- feed noticias -->
+    <div class="row" id="articles"></div>
+    <!-- fin feed noticias -->
+  </div>
+</section>
+
+<script src="/js/tabletop.js"></script>
+<script type="text/javascript">
+  window.onload = function() { init(); /*mas_articulos();*/ };
+
+  var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
+
+  function init() {
+  Tabletop.init( { key: public_spreadsheet_url,
+                   callback: showInfo,
+                   simpleSheet: true } )
+  }
+
+  function showInfo(data) {
+    var el_div = document.getElementById('articles');
+
+    var cnt = 0;
+    data.forEach( function(key, value) {
+      if (key.title && key.content && key.content != '#N/A' && cnt <=2) {
+
+        var el_colmd4 = document.createElement('div');
+            el_colmd4.classList.add('col-md-4')
+
+        var read_more = document.createElement('a');
+          read_more.setAttribute('href', key.source );
+          read_more.setAttribute('target', '_blank' );
+          read_more.appendChild( document.createTextNode( " Seguir leyendo" ) );
+
+        var h3 = document.createElement('h3');
+            h3.appendChild( document.createTextNode( key.title ) );
+
+        var p = document.createElement('p');
+          p.appendChild( document.createTextNode(key.content) );
+
+        el_colmd4.appendChild(h3)
+        p.appendChild(read_more)
+        el_colmd4.appendChild(p)
+        el_div.appendChild(el_colmd4)
+
+        cnt++;
+      }
+    })
+    document.getElementById('container_article').appendChild( el_div );
+  }
+</script>

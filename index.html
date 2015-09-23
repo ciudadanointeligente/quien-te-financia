@@ -9,93 +9,21 @@ layout: home
 
 <div class="home">
 	{% include buttons.html %}
+  {% include lo-que-esta-pasando.html %}
 	{% include ask-congressmen.html %}
-	{% include lawyers.html %}
 
-	<script type="text/javascript">
-        var min_scroll = 1763;
-        var start = 10;
-        function mas_articulos(){
-            var ul = document.getElementById('articles');
-            nro_li = 10;
-            var li = ul.children;
+  <section>
+  	<div class="container">
+  	  	<div class="row">
+  	  		<div class="col-md-8">
 
-            // if( window.pageYOffset > min_scroll ) {
-                for(x=0;x<10;x++) {
-                    pos = start+x;
-                    li[pos].classList.remove('nodisplay')
-                    new_val = start+x
-                }
-                start = new_val
-                min_scroll = min_scroll + 1000;
-            // }
-            return false;
-        }
-    </script>
-
-	
-<section>
-	<div class="container">
-	  	<div class="row">
-	  		<div class="col-md-8">
-		  		
-	  		</div>
-	      	<div class="col-md-4">
-		      	{% include feed-twitter.html %}
-	      	</div>
-	  	</div>
-	</div>
+  	  		</div>
+  	      	<div class="col-md-4">
+  		      	{% include feed-twitter.html %}
+  	      	</div>
+  	  	</div>
+  	</div>
+  </section>
 </div>
-</section>
 
-<script src="/js/tabletop.js"></script>
-<script type="text/javascript">
-	window.onload = function() { init(); /*mas_articulos();*/ };
-
-	var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
-
-	function init() {
-	Tabletop.init( { key: public_spreadsheet_url,
-	                 callback: showInfo,
-	                 simpleSheet: true } )
-	}
-
-	function showInfo(data) {
-		// var el_ul = document.createElement('ul');
-		// 	el_ul.id = "articles"
-		// 	el_ul.classList.add('list-unstyled')
-		var el_ul = document.getElementById('articles');
-
-		var cnt = 0;
-		data.forEach( function(key, value) {
-
-			var el_li = document.createElement('li');
-			if(cnt>2)
-				el_li.classList.add('nodisplay')
-			var url = document.createElement('a');
-				url.setAttribute('href', key.source );
-				url.setAttribute('target', '_blank' );
-				url.classList.add('main_url')
-				url.appendChild( document.createTextNode( key.title ) );
-			var read_more = document.createElement('a');
-				read_more.setAttribute('href', key.source );
-				read_more.setAttribute('target', '_blank' );
-				read_more.classList.add('view_more')
-				read_more.appendChild( document.createTextNode( " Seguir leyendo" ) );
-			var h3 = document.createElement('h3');
-				h3.appendChild( url )
-			var p = document.createElement('p')
-				p.appendChild( document.createTextNode(key.content) )
-
-			el_li.appendChild(h3)
-			p.appendChild(read_more)
-			el_li.appendChild(p)
-			el_ul.appendChild(el_li)
-
-			cnt++;
-		})
-		//document.getElementById('articles').appendChild( el_ul );
-	}
-	var the_body = document.body; //getElementById('the_body');
-</script>
 <script src="//my.hellobar.com/401a97b016ea26739fbf13381dd24e23cf4d6d15.js" type="text/javascript" charset="utf-8" async="async"></script>
