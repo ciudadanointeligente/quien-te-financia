@@ -1,0 +1,83 @@
+<section id="home">
+  <div class="container" id="container_article">
+    <h1>Lo que está pasando en caso Penta-SQM<span class='subhead'>Sigue en tiempo real las últimas noticias sobre los casos Penta y SQM</span></h1>
+
+    <!-- feed noticias -->
+    <div class="row" id="articles"></div>
+    <div id="spin" class="text-center">
+      <i class="fa fa-spinner fa-spin fa-4x hidden"></i>
+    </div>
+    <!-- fin feed noticias -->
+  </div>
+</section>
+
+<script src="/js/tabletop.js"></script>
+<script type="text/javascript">
+  window.onload = function() { init(); spin(true); };
+
+  var public_spreadsheet_url = '//docs.google.com/spreadsheets/d/1jQysXERupAx_Qsdbq2SPSMC2f_uEnPTgPBc1lhoA_Dk/pubhtml';
+
+  function init() {
+  Tabletop.init( { key: public_spreadsheet_url,
+                   callback: showInfo,
+                   simpleSheet: true } )
+  }
+
+  function spin(status) {
+    var classes = 'fa fa-spinner fa-spin fa-4x'
+    var spin = document.getElementById('spin');
+      spin.children[0].className = classes+' hidden';
+    if(status)
+      spin.children[0].className = classes;
+  }
+
+  function showInfo(data) {
+    var el_div = document.getElementById('articles');
+
+    var cnt = 0;
+    data.forEach( function(key, value) {
+      if (key.title && key.content && key.content != '#N/A' && cnt <=2) {
+
+        var el_colmd4 = document.createElement('div');
+            el_colmd4.classList.add('col-md-4')
+        var url = document.createElement('a');
+            url.setAttribute('href', key.source );
+            url.setAttribute('target', '_blank' );
+            url.classList.add('main_url')
+            url.appendChild( document.createTextNode( key.title ) );
+        var read_more = document.createElement('a');
+          read_more.setAttribute('href', key.source );
+          read_more.setAttribute('target', '_blank' );
+          read_more.appendChild( document.createTextNode( " Seguir leyendo" ) );
+
+        var h3 = document.createElement('h3');
+            h3.appendChild(url);
+
+        var p = document.createElement('p');
+          p.appendChild( document.createTextNode(key.content) );
+
+        el_colmd4.appendChild(h3)
+        p.appendChild(read_more)
+        el_colmd4.appendChild(p)
+        el_div.appendChild(el_colmd4)
+
+        cnt++;
+      }
+    })
+    spin(false);
+
+    var button_container = document.createElement('div');
+        button_container.classList.add('text-right');
+    var button_more = document.createElement('button');
+        button_more.classList.add('btn');
+        button_more.classList.add('btn-default');
+        button_more.setAttribute('onclick', "location.href='/noticias.html'" );
+        button_more.appendChild( document.createTextNode( "Más artículos" ));
+
+    button_container.appendChild(button_more)
+
+    document.getElementById('container_article').appendChild( el_div );
+    document.getElementById('container_article').appendChild( button_container );
+
+  }
+</script>
