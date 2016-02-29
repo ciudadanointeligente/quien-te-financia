@@ -71,7 +71,7 @@ $text-color: #45515E;
 
  }
  li{
- 	color: $text-color;
+ 	color: white;
  }
 
  span.subhead {
@@ -85,15 +85,15 @@ $text-color: #45515E;
  }
 
  a{
-	color: #EF4036;
+	color: #73C4CD;
  }
 
 a:visited{
-	color: #EF4036;
+	color: #73C4CD;
  }
 
  a:hover{
-  color: #FF5E54;
+  color: #A6A8AB;
   text-decoration: none;
  }
 
@@ -256,7 +256,7 @@ div#bajada-logo {
  */
 
 footer{
-	background:#27245F;
+	background:#171C36;
 	padding: 60px 0;
 	color: #9B9B9B;
 }
@@ -285,7 +285,6 @@ footer a img:hover {
 	opacity: 1;
 }
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
