@@ -9,7 +9,7 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
-    background: radial-gradient(circle, #1F1F1F 5%, #000 60%);
+    background-color: #27245F;
  }
 
 h1 {
@@ -107,7 +107,7 @@ a:visited{
 
 .site-header {
 	min-height: 70px;
-    background: #F44336;
+    background: #292965;
     padding:10px;
     z-index: 1;
 
@@ -234,7 +234,7 @@ a:visited{
 div#bajada-logo {
 	float: left;
 	margin-top: 43px;
-	color: #FFC9C9;
+	color: #7F7FA3;
 	margin-left: -120px;
 }
 
@@ -256,7 +256,7 @@ div#bajada-logo {
  */
 
 footer{
-	background:#000;
+	background:#27245F;
 	padding: 60px 0;
 	color: #9B9B9B;
 }
